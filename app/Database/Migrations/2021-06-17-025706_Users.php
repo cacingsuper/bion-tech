@@ -27,6 +27,10 @@ class Users extends Migration
 				'type' => 'VARCHAR',
 				'constraint' => '255',
 			],
+			'id_role' => [
+				'type' => 'TINYINT',
+				'default' => 2
+			],
 			'is_active' => [
 				'type' => 'TINYINT',
 				'default' => 0
@@ -35,6 +39,15 @@ class Users extends Migration
 				'type' => 'VARCHAR',
 				'constraint' => 6
 			],
+			'created_at' => [
+				'type' => 'DATETIME',
+			],
+			'updated_at' => [
+				'type' => 'DATETIME'
+			],
+			'deleted_at' => [
+				'type' => 'DATETIME'
+			]
 			
 		]);
 		$this->forge->addKey('id', true);

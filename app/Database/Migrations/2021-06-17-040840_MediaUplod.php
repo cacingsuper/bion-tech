@@ -21,7 +21,7 @@ class MediaUplod extends Migration
 			],
 			'alt' => [
 				'type' => 'VARCHAR',
-				'constraint' => '100',
+				'constraint' => 100,
 			],
 			'filename' => [
 				'type' => 'TEXT',
@@ -34,6 +34,7 @@ class MediaUplod extends Migration
 			],
 			'ext_file' => [
 				'type' => 'VARCHAR',
+				'constraint' => 100
 			],
 		]);
 		$this->forge->addKey('id', true);
@@ -42,6 +43,6 @@ class MediaUplod extends Migration
 
 	public function down()
 	{
-		//
+		$this->forge->dropTable('media_upload');
 	}
 }
