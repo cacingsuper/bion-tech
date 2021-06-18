@@ -9,7 +9,7 @@ class Home extends BaseController
 	{
 		$userModel = new \App\Models\UserModel();
 		$users = $userModel->findAll();
-
+		
 		return view('pages/home');
 	}
 }

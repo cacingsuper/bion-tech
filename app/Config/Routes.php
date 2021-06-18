@@ -34,7 +34,10 @@ $routes->setAutoRoute(true);
 // route since we don't have to scan directories.
 $routes->get('/', 'Home::index');
 $routes->get('/contact-us', 'Contact::index');
+$routes->get('/gallery', 'Gallery::index');
 $routes->get('/about-us', 'About::index');
+$routes->get('/board-of-directors', 'About::board_directors');
+$routes->get('/senior-management', 'About::senior_management');
 $routes->get('/product-services', 'Business::index');
 $routes->get('/investor-relations', 'Contact::index');
 

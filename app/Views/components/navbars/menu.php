@@ -30,16 +30,17 @@
                                                             <div class="elementor-widget-container">
                                                                 <nav role="navigation" class="elementor-nav-menu--main elementor-nav-menu__container elementor-nav-menu--layout-horizontal e--pointer-underline e--animation-slide">
                                                                     <ul id="menu-1-7ef84c9" class="elementor-nav-menu">
-                                                                        <li class="menu-item menu-item-type-post_type menu-item-object-page menu-item-home current-menu-item page_item page-item-1850 current_page_item menu-item-2009"><a href="https://www.bionsce.com/" aria-current="page" class="elementor-item elementor-item-active">HOME</a></li>
-                                                                        <li class="menu-item menu-item-type-post_type menu-item-object-page menu-item-has-children menu-item-152"><a href="https://www.bionsce.com/about-us/" class="elementor-item">COMPANY OVERVIEW</a>
+                                                                        <li class="menu-item menu-item-type-post_type menu-item-object-page menu-item-home current-menu-item page_item page-item-1850 current_page_item menu-item-2009"><a href="<?= base_url()?>/" aria-current="page" class="elementor-item elementor-item-active">HOME</a></li>
+                                                                        <li class="menu-item menu-item-type-post_type menu-item-object-page menu-item-has-children menu-item-152"><a href="<?= base_url()?>/about-us" class="elementor-item">COMPANY OVERVIEW</a>
                                                                             <ul class="sub-menu elementor-nav-menu--dropdown">
-                                                                                <li class="menu-item menu-item-type-post_type menu-item-object-page menu-item-559"><a href="https://www.bionsce.com/about-us/" class="elementor-sub-item">COMPANY OVERVIEW</a></li>
-                                                                                <li class="menu-item menu-item-type-post_type menu-item-object-page menu-item-2173"><a href="https://www.bionsce.com/board-of-directors-v2/" class="elementor-sub-item">BOARD OF DIRECTORS</a></li>
-                                                                                <li class="menu-item menu-item-type-post_type menu-item-object-page menu-item-2174"><a href="https://www.bionsce.com/senior-management/" class="elementor-sub-item">SENIOR MANAGEMENT</a></li>
+                                                                                <li class="menu-item menu-item-type-post_type menu-item-object-page menu-item-559"><a href="<?= base_url()?>/about-us" class="elementor-sub-item">COMPANY OVERVIEW</a></li>
+                                                                                <li class="menu-item menu-item-type-post_type menu-item-object-page menu-item-2173"><a href="<?= base_url()?>/board-of-directors" class="elementor-sub-item">BOARD OF DIRECTORS</a></li>
+                                                                                <li class="menu-item menu-item-type-post_type menu-item-object-page menu-item-2174"><a href="<?= base_url()?>/senior-management" class="elementor-sub-item">SENIOR MANAGEMENT</a></li>
                                                                             </ul>
                                                                         </li>
-                                                                        <li class="menu-item menu-item-type-post_type menu-item-object-page menu-item-208"><a href="https://www.bionsce.com/product-services/" class="elementor-item">OUR BUSINESS</a></li>
-                                                                        <li class="menu-item menu-item-type-post_type menu-item-object-page menu-item-542"><a href="https://www.bionsce.com/contact-us/" class="elementor-item">CONTACT US</a></li>
+                                                                        <li class="menu-item menu-item-type-post_type menu-item-object-page menu-item-208"><a href="<?= base_url()?>/product-services" class="elementor-item">OUR BUSINESS</a></li>
+                                                                        <li class="menu-item menu-item-type-post_type menu-item-object-page menu-item-586"><a href="<?= base_url()?>/gallery" class="elementor-item">GALLERY</a></li>
+                                                                        <li class="menu-item menu-item-type-post_type menu-item-object-page menu-item-542"><a href="<?= base_url()?>/contact-us" class="elementor-item">CONTACT US</a></li>
                                                                     </ul>
                                                                 </nav>
                                                                 <div class="elementor-menu-toggle" role="button" tabindex="0" aria-label="Menu Toggle" aria-expanded="false">
@@ -48,23 +49,17 @@
                                                                 </div>
                                                                 <nav class="elementor-nav-menu--dropdown elementor-nav-menu__container" role="navigation" aria-hidden="true">
                                                                     <ul id="menu-2-7ef84c9" class="elementor-nav-menu">
-                                                                        <li class="menu-item menu-item-type-post_type menu-item-object-page menu-item-home current-menu-item page_item page-item-1850 current_page_item menu-item-2009"><a href="https://www.bionsce.com/" aria-current="page" class="elementor-item elementor-item-active">HOME</a></li>
-                                                                        <li class="menu-item menu-item-type-post_type menu-item-object-page menu-item-has-children menu-item-152"><a href="https://www.bionsce.com/about-us/" class="elementor-item">ABOUT US</a>
+                                                                        <li class="menu-item menu-item-type-post_type menu-item-object-page menu-item-home current-menu-item page_item page-item-1850 current_page_item menu-item-2009"><a href="<?= base_url()?>/" aria-current="page" class="elementor-item elementor-item-active">HOME</a></li>
+                                                                        <li class="menu-item menu-item-type-post_type menu-item-object-page menu-item-has-children menu-item-152"><a href="<?= base_url()?>/about-us" class="elementor-item">ABOUT US</a>
                                                                             <ul class="sub-menu elementor-nav-menu--dropdown">
-                                                                                <li class="menu-item menu-item-type-post_type menu-item-object-page menu-item-559"><a href="https://www.bionsce.com/about-us/" class="elementor-sub-item">COMPANY OVERVIEW</a></li>
-                                                                                <li class="menu-item menu-item-type-post_type menu-item-object-page menu-item-2173"><a href="https://www.bionsce.com/board-of-directors-v2/" class="elementor-sub-item">BOARD OF DIRECTORS</a></li>
-                                                                                <li class="menu-item menu-item-type-post_type menu-item-object-page menu-item-2174"><a href="https://www.bionsce.com/senior-management/" class="elementor-sub-item">SENIOR MANAGEMENT</a></li>
+                                                                                <li class="menu-item menu-item-type-post_type menu-item-object-page menu-item-559"><a href="<?= base_url()?>/about-us" class="elementor-sub-item">COMPANY OVERVIEW</a></li>
+                                                                                <li class="menu-item menu-item-type-post_type menu-item-object-page menu-item-2173"><a href="<?= base_url()?>/board-of-directors" class="elementor-sub-item">BOARD OF DIRECTORS</a></li>
+                                                                                <li class="menu-item menu-item-type-post_type menu-item-object-page menu-item-2174"><a href="<?= base_url()?>/senior-management" class="elementor-sub-item">SENIOR MANAGEMENT</a></li>
                                                                             </ul>
                                                                         </li>
-                                                                        <li class="menu-item menu-item-type-post_type menu-item-object-page menu-item-208"><a href="https://www.bionsce.com/product-services/" class="elementor-item">OUR BUSINESS</a></li>
-                                                                        <li class="menu-item menu-item-type-post_type menu-item-object-page menu-item-534"><a href="https://www.bionsce.com/investor-relations/" class="elementor-item">INVESTOR RELATIONS</a></li>
-                                                                        <li class="menu-item menu-item-type-post_type menu-item-object-page menu-item-has-children menu-item-1472"><a href="https://www.bionsce.com/career/" class="elementor-item">CAREER</a>
-                                                                            <ul class="sub-menu elementor-nav-menu--dropdown">
-                                                                                <li class="menu-item menu-item-type-post_type menu-item-object-page menu-item-1462"><a href="https://www.bionsce.com/internship/" class="elementor-sub-item">INTERNSHIP</a></li>
-                                                                            </ul>
-                                                                        </li>
-                                                                        <li class="menu-item menu-item-type-post_type menu-item-object-page menu-item-586"><a href="https://www.bionsce.com/gallery/" class="elementor-item">AWARDS</a></li>
-                                                                        <li class="menu-item menu-item-type-post_type menu-item-object-page menu-item-542"><a href="https://www.bionsce.com/contact-us/" class="elementor-item">CONTACT US</a></li>
+                                                                        <li class="menu-item menu-item-type-post_type menu-item-object-page menu-item-208"><a href="<?= base_url()?>/product-services" class="elementor-item">OUR BUSINESS</a></li>
+                                                                        <li class="menu-item menu-item-type-post_type menu-item-object-page menu-item-586"><a href="<?= base_url()?>/gallery" class="elementor-item">GALLERY</a></li>
+                                                                        <li class="menu-item menu-item-type-post_type menu-item-object-page menu-item-542"><a href="<?= base_url()?>/contact-us" class="elementor-item">CONTACT US</a></li>
                                                                     </ul>
                                                                 </nav>
                                                             </div>
