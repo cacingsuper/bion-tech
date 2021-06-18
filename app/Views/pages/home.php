@@ -613,7 +613,7 @@
                                     <div class="elementor-element elementor-element-82cebf6 elementor-widget elementor-widget-text-editor" data-id="82cebf6" data-element_type="widget" data-widget_type="text-editor.default">
                                         <div class="elementor-widget-container">
                                             <div class="elementor-text-editor elementor-clearfix">
-                                                <p>COPYRIGHT © 2021 BiON. All rights reserved</p>
+                                                <p>COPYRIGHT © <?= date("Y")?> BIONSCE. All rights reserved</p>
                                             </div>
                                         </div>
                                     </div>
