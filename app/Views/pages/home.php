@@ -142,7 +142,7 @@
         <iframe src="https://www.googletagmanager.com/ns.html?id=GTM-TMLJT5C" height="0" width="0" style="display:none;visibility:hidden"></iframe>
     </noscript>
     <!-- End Google Tag Manager (noscript) -->
-    <?= $this->load->view('components/navbars/menu',TRUE)?>
+    <?= view('components/navbars/menu')?>
 
     <main class="site-main post-1850 page type-page status-publish hentry" role="main">
         <div class="page-content">
