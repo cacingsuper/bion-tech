@@ -39,7 +39,7 @@
                                                                             </ul>
                                                                         </li>
                                                                         <li class="menu-item menu-item-type-post_type menu-item-object-page menu-item-208"><a href="<?= base_url()?>/product-services" class="elementor-item">OUR BUSINESS</a></li>
-                                                                        <li class="menu-item menu-item-type-post_type menu-item-object-page menu-item-586"><a href="<?= base_url()?>/gallery" class="elementor-item">GALLERY</a></li>
+                                                                        <!-- <li class="menu-item menu-item-type-post_type menu-item-object-page menu-item-586"><a href="<?= base_url()?>/gallery" class="elementor-item">GALLERY</a></li> -->
                                                                         <li class="menu-item menu-item-type-post_type menu-item-object-page menu-item-542"><a href="<?= base_url()?>/contact-us" class="elementor-item">CONTACT US</a></li>
                                                                     </ul>
                                                                 </nav>
@@ -58,7 +58,7 @@
                                                                             </ul>
                                                                         </li>
                                                                         <li class="menu-item menu-item-type-post_type menu-item-object-page menu-item-208"><a href="<?= base_url()?>/product-services" class="elementor-item">OUR BUSINESS</a></li>
-                                                                        <li class="menu-item menu-item-type-post_type menu-item-object-page menu-item-586"><a href="<?= base_url()?>/gallery" class="elementor-item">GALLERY</a></li>
+                                                                        <!-- <li class="menu-item menu-item-type-post_type menu-item-object-page menu-item-586"><a href="<?= base_url()?>/gallery" class="elementor-item">GALLERY</a></li> -->
                                                                         <li class="menu-item menu-item-type-post_type menu-item-object-page menu-item-542"><a href="<?= base_url()?>/contact-us" class="elementor-item">CONTACT US</a></li>
                                                                     </ul>
                                                                 </nav>
