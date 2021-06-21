@@ -10,11 +10,11 @@ class About extends BaseController
 	}
 	public function board_directors()
 	{
-		return view('pages/about-us/board_directors');
+		return view('pages/about-us/board-of-directors');
 	}
 	public function senior_management()
 	{
-		return view('pages/about-us/senior_management');
+		return view('pages/about-us/senior-management');
 	}
 	
 }

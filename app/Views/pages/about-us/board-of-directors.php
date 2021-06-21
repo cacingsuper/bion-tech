@@ -75,7 +75,6 @@
 	<link rel='stylesheet' id='wp-block-library-css' href='https://www.bionplc.com/wp-includes/css/dist/block-library/style.min.css?ver=5.7.2' type='text/css' media='all' />
 	<link rel='stylesheet' id='hello-elementor-css' href='https://www.bionplc.com/wp-content/themes/hello-elementor/style.min.css?ver=2.3.1' type='text/css' media='all' />
 	<link rel='stylesheet' id='hello-elementor-theme-style-css' href='https://www.bionplc.com/wp-content/themes/hello-elementor/theme.min.css?ver=2.3.1' type='text/css' media='all' />
-	<link rel='stylesheet' id='elementor-icons-css' href='https://www.bionplc.com/wp-content/plugins/elementor/assets/lib/eicons/css/elementor-icons.min.css?ver=5.11.0' type='text/css' media='all' />
 	<link rel='stylesheet' id='elementor-animations-css' href='https://www.bionplc.com/wp-content/plugins/elementor/assets/lib/animations/animations.min.css?ver=3.1.4' type='text/css' media='all' />
 	<link rel='stylesheet' id='elementor-frontend-legacy-css' href='https://www.bionplc.com/wp-content/plugins/elementor/assets/css/frontend-legacy.min.css?ver=3.1.4' type='text/css' media='all' />
 	<link rel='stylesheet' id='elementor-frontend-css' href='https://www.bionplc.com/wp-content/plugins/elementor/assets/css/frontend.min.css?ver=3.1.4' type='text/css' media='all' />
@@ -91,18 +90,6 @@
 	<link rel='stylesheet' id='elementor-icons-shared-0-css' href='https://www.bionplc.com/wp-content/plugins/elementor/assets/lib/font-awesome/css/fontawesome.min.css?ver=5.15.1' type='text/css' media='all' />
 	<link rel='stylesheet' id='elementor-icons-fa-solid-css' href='https://www.bionplc.com/wp-content/plugins/elementor/assets/lib/font-awesome/css/solid.min.css?ver=5.15.1' type='text/css' media='all' />
 	<script type='text/javascript' src='https://www.googletagmanager.com/gtag/js?id=UA-172856164-1' id='google_gtagjs-js' async></script>
-	<script type='text/javascript' id='google_gtagjs-js-after'>
-		window.dataLayer = window.dataLayer || [];
-
-		function gtag() {
-			dataLayer.push(arguments);
-		}
-		gtag("js", new Date());
-		gtag("set", "developer_id.dZTNiMT", true);
-		gtag("config", "UA-172856164-1", {
-			"anonymize_ip": true
-		});
-	</script>
 	<link rel="https://api.w.org/" href="https://www.bionplc.com/wp-json/" />
 	<link rel="alternate" type="application/json" href="https://www.bionplc.com/wp-json/wp/v2/pages/860" />
 	<link rel="EditURI" type="application/rsd+xml" title="RSD" href="https://www.bionplc.com/xmlrpc.php?rsd" />
@@ -133,6 +120,22 @@
 	<link rel="icon" href="https://www.bionplc.com/wp-content/uploads/2019/12/cropped-bion-favicon-192x192.png" sizes="192x192" />
 	<link rel="apple-touch-icon" href="https://www.bionplc.com/wp-content/uploads/2019/12/cropped-bion-favicon-180x180.png" />
 	<meta name="msapplication-TileImage" content="https://www.bionplc.com/wp-content/uploads/2019/12/cropped-bion-favicon-270x270.png" />
+	<script type='text/javascript' id='google_gtagjs-js-after'>
+		window.dataLayer = window.dataLayer || [];
+
+		function gtag() {
+			dataLayer.push(arguments);
+		}
+		gtag("js", new Date());
+		gtag("set", "developer_id.dZTNiMT", true);
+		gtag("config", "UA-172856164-1", {
+			"anonymize_ip": true
+		});
+	</script>
+	 <!-- HEAD -->
+	 <link rel='stylesheet' href='<?= base_url("fontawesome/css/all.min.css") ?>' type='text/css' media='all' />
+    <!-- GLOBAL CSS -->
+    <link rel='stylesheet' href='<?= base_url("css/styles.css") ?>' type='text/css' media='all' />
 </head>
 
 <body class="page-template-default page page-id-860 wp-custom-logo elementor-default elementor-kit-946 elementor-page elementor-page-860">
@@ -142,7 +145,7 @@
 		<iframe src="https://www.googletagmanager.com/ns.html?id=GTM-TMLJT5C" height="0" width="0" style="display:none;visibility:hidden"></iframe>
 	</noscript>
 	<!-- End Google Tag Manager (noscript) -->
-	<?= view('components/navbars/menu')?>
+	<?= view('components/navbars/menu') ?>
 
 	<main class="site-main post-860 page type-page status-publish hentry" role="main">
 		<div class="page-content">
@@ -580,7 +583,7 @@
 		</section><!-- .comments-area -->
 	</main>
 
-	<?= view('components/layout/footer')?>
+	<?= view('components/layout/footer') ?>
 
 	<div data-elementor-type="popup" data-elementor-id="1234" class="elementor elementor-1234 elementor-location-popup" data-elementor-settings="{&quot;entrance_animation&quot;:&quot;fadeIn&quot;,&quot;entrance_animation_duration&quot;:{&quot;unit&quot;:&quot;px&quot;,&quot;size&quot;:1.2,&quot;sizes&quot;:[]},&quot;timing&quot;:[]}">
 		<div class="elementor-section-wrap">

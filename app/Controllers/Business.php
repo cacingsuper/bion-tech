@@ -6,6 +6,9 @@ class Business extends BaseController
 {
 	public function index()
 	{
-		return view('pages/product-services');
+		$data = [
+			"title" => "Our Business"
+		];
+		return view('pages/product-services', $data);
 	}
 }

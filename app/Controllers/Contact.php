@@ -6,6 +6,9 @@ class Contact extends BaseController
 {
 	public function index()
 	{
-		return view('pages/contact-us');
+		$data = [
+			"title" => "Contact Us"
+		];
+		return view('pages/contact-us', $data);
 	}
 }

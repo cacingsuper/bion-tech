@@ -39,12 +39,12 @@
                                                                             </ul>
                                                                         </li>
                                                                         <li class="menu-item menu-item-type-post_type menu-item-object-page menu-item-208"><a href="<?= base_url() ?>/product-services" class="elementor-item">OUR BUSINESS</a></li>
-                                                                        <!-- <li class="menu-item menu-item-type-post_type menu-item-object-page menu-item-586"><a href="<?= base_url() ?>/gallery" class="elementor-item">GALLERY</a></li> -->
+                                                                        <li class="menu-item menu-item-type-post_type menu-item-object-page menu-item-586"><a href="https://bionplc.com" class="elementor-item">MEMBER OF BIONPLC</a></li>
                                                                         <li class="menu-item menu-item-type-post_type menu-item-object-page menu-item-542"><a href="<?= base_url() ?>/contact-us" class="elementor-item">CONTACT US</a></li>
                                                                     </ul>
                                                                 </nav>
                                                                 <div class="elementor-menu-toggle" role="button" tabindex="0" aria-label="Menu Toggle" aria-expanded="false">
-                                                                    <i class="eicon-menu-bar" aria-hidden="true"></i>
+                                                                    <i class="fas fa-bars" aria-hidden="true"></i>
                                                                     <span class="elementor-screen-only">Menu</span>
                                                                 </div>
                                                                 <nav class="elementor-nav-menu--dropdown elementor-nav-menu__container" role="navigation" aria-hidden="true">
@@ -58,7 +58,7 @@
                                                                             </ul>
                                                                         </li>
                                                                         <li class="menu-item menu-item-type-post_type menu-item-object-page menu-item-208"><a href="<?= base_url() ?>/product-services" class="elementor-item">OUR BUSINESS</a></li>
-                                                                        <!-- <li class="menu-item menu-item-type-post_type menu-item-object-page menu-item-586"><a href="<?= base_url() ?>/gallery" class="elementor-item">GALLERY</a></li> -->
+                                                                        <li class="menu-item menu-item-type-post_type menu-item-object-page menu-item-586"><a href="https://bionplc.com" class="elementor-item">MEMBER OF BIONPLC</a></li>
                                                                         <li class="menu-item menu-item-type-post_type menu-item-object-page menu-item-542"><a href="<?= base_url() ?>/contact-us" class="elementor-item">CONTACT US</a></li>
                                                                     </ul>
                                                                 </nav>

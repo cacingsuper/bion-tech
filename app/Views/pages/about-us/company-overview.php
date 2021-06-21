@@ -75,7 +75,6 @@
 	<link rel='stylesheet' id='wp-block-library-css' href='https://www.bionplc.com/wp-includes/css/dist/block-library/style.min.css?ver=5.7.2' type='text/css' media='all' />
 	<link rel='stylesheet' id='hello-elementor-css' href='https://www.bionplc.com/wp-content/themes/hello-elementor/style.min.css?ver=2.3.1' type='text/css' media='all' />
 	<link rel='stylesheet' id='hello-elementor-theme-style-css' href='https://www.bionplc.com/wp-content/themes/hello-elementor/theme.min.css?ver=2.3.1' type='text/css' media='all' />
-	<link rel='stylesheet' id='elementor-icons-css' href='https://www.bionplc.com/wp-content/plugins/elementor/assets/lib/eicons/css/elementor-icons.min.css?ver=5.11.0' type='text/css' media='all' />
 	<link rel='stylesheet' id='elementor-animations-css' href='https://www.bionplc.com/wp-content/plugins/elementor/assets/lib/animations/animations.min.css?ver=3.1.4' type='text/css' media='all' />
 	<link rel='stylesheet' id='elementor-frontend-legacy-css' href='https://www.bionplc.com/wp-content/plugins/elementor/assets/css/frontend-legacy.min.css?ver=3.1.4' type='text/css' media='all' />
 	<link rel='stylesheet' id='elementor-frontend-css' href='https://www.bionplc.com/wp-content/plugins/elementor/assets/css/frontend.min.css?ver=3.1.4' type='text/css' media='all' />
@@ -133,6 +132,10 @@
 	<link rel="icon" href="https://www.bionplc.com/wp-content/uploads/2019/12/cropped-bion-favicon-192x192.png" sizes="192x192" />
 	<link rel="apple-touch-icon" href="https://www.bionplc.com/wp-content/uploads/2019/12/cropped-bion-favicon-180x180.png" />
 	<meta name="msapplication-TileImage" content="https://www.bionplc.com/wp-content/uploads/2019/12/cropped-bion-favicon-270x270.png" />
+	 <!-- HEAD -->
+	 <link rel='stylesheet' href='<?= base_url("fontawesome/css/all.min.css") ?>' type='text/css' media='all' />
+    <!-- GLOBAL CSS -->
+    <link rel='stylesheet' href='<?= base_url("css/styles.css") ?>' type='text/css' media='all' />
 </head>
 
 <body class="page-template-default page page-id-137 wp-custom-logo elementor-default elementor-kit-946 elementor-page elementor-page-137">
