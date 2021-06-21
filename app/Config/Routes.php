@@ -22,7 +22,7 @@ $routes->setDefaultController('Home');
 $routes->setDefaultMethod('index');
 $routes->setTranslateURIDashes(false);
 $routes->set404Override();
-$routes->setAutoRoute(true);
+$routes->setAutoRoute(false);
 
 /*
  * --------------------------------------------------------------------
@@ -40,7 +40,14 @@ $routes->get('/board-of-directors', 'About::board_directors');
 $routes->get('/senior-management', 'About::senior_management');
 $routes->get('/product-services', 'Business::index');
 $routes->get('/investor-relations', 'Contact::index');
-
+//auth
+$routes->get('/login', 'Auth::login');
+$routes->post('/login_proses', 'Auth::login_proses');
+$routes->get('/register', 'Auth::register');
+$routes->post('/register_proses', 'Auth::register_proses');
+$routes->get('/logout', 'Auth::logout');
+//admin
+$routes->get('/admin', 'Admin::index',['filter' => 'auth']);
 /*
  * --------------------------------------------------------------------
  * Additional Routing
