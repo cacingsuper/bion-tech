@@ -12,7 +12,7 @@
 	<!-- End Google Tag Manager (noscript) -->
 	<?= view('components/navbars/menu')?>
 
-	<main class="site-main post-537 page type-page status-publish hentry" role="main">
+	<main class="site-main post-537 page type-page status-publish hentry" role="main" style="margin-top: 5rem;">
 		<div class="page-content">
 			<div data-elementor-type="wp-page" data-elementor-id="537" class="elementor elementor-537" data-elementor-settings="[]">
 				<div class="elementor-inner">
