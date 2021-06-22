@@ -47,7 +47,13 @@ $routes->get('/register', 'Auth::register');
 $routes->post('/register_proses', 'Auth::register_proses');
 $routes->get('/logout', 'Auth::logout');
 //admin
-$routes->get('/admin', 'Admin::index',['filter' => 'auth']);
+// $routes->get('/admin', 'Admin::index',['filter' => 'auth']);
+$routes->get('/admin', 'Admin/Dashboard::index',['filter' => 'auth']);
+$routes->get('/admin/setting', 'Admin/Setting::index',['filter' => 'auth']);
+$routes->get('/admin/setting-pages', 'Admin/Setting::pages',['filter' => 'auth']);
+$routes->get('/admin/image', 'Admin/Image::index',['filter' => 'auth']);
+$routes->get('/admin/image-gallery', 'Admin/Image::gallery',['filter' => 'auth']);
+
 /*
  * --------------------------------------------------------------------
  * Additional Routing
