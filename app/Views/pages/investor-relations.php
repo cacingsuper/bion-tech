@@ -109,7 +109,8 @@
     <link rel='shortlink' href='https://www.bionplc.com/?p=513' />
     <link rel="alternate" type="application/json+oembed" href="https://www.bionplc.com/wp-json/oembed/1.0/embed?url=https%3A%2F%2Fwww.bionplc.com%2Finvestor-relations%2F" />
     <link rel="alternate" type="text/xml+oembed" href="https://www.bionplc.com/wp-json/oembed/1.0/embed?url=https%3A%2F%2Fwww.bionplc.com%2Finvestor-relations%2F&#038;format=xml" />
-    <meta name="generator" content="Site Kit by Google 1.28.0" /><!-- Google Tag Manager added by Site Kit -->
+    <meta name="generator" content="Site Kit by Google 1.28.0" />
+    <!-- Google Tag Manager added by Site Kit -->
     <script>
         (function(w, d, s, l, i) {
             w[l] = w[l] || [];
@@ -130,10 +131,11 @@
     <link rel="icon" href="https://www.bionplc.com/wp-content/uploads/2019/12/cropped-bion-favicon-192x192.png" sizes="192x192" />
     <link rel="apple-touch-icon" href="https://www.bionplc.com/wp-content/uploads/2019/12/cropped-bion-favicon-180x180.png" />
     <meta name="msapplication-TileImage" content="https://www.bionplc.com/wp-content/uploads/2019/12/cropped-bion-favicon-270x270.png" />
-     <!-- HEAD -->
-	 <link rel='stylesheet' href='<?= base_url("fontawesome/css/all.min.css") ?>' type='text/css' media='all' />
+    <!-- HEAD -->
+	<link rel='stylesheet' href='<?= base_url("fontawesome/css/all.min.css") ?>' type='text/css' media='all' />
     <!-- GLOBAL CSS -->
     <link rel='stylesheet' href='<?= base_url("css/styles.css") ?>' type='text/css' media='all' />
+
 </head>
 
 <body class="page-template-default page page-id-513 wp-custom-logo elementor-default elementor-kit-946 elementor-page elementor-page-513">

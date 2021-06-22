@@ -6,6 +6,10 @@ class Gallery extends BaseController
 {
 	public function index()
 	{
-		return view('pages/gallery');
+		$data = [
+			"title" => "Gallery",
+			"page"	=> "gallery"
+		];
+		return view('pages/gallery', $data);
 	}
 }

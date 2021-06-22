@@ -50,7 +50,7 @@
                                                         </div>
                                                     </div>
                                                 </div>
-                                                <div class="elementor-element elementor-element-234f14e elementor-align-left elementor-widget elementor-widget-button" data-id="234f14e" data-element_type="widget" data-widget_type="button.default">
+                                                <div class="elementor-element elementor-element-read-more elementor-align-left elementor-widget elementor-widget-button" data-id="234f14e" data-element_type="widget" data-widget_type="button.default">
                                                     <div class="elementor-widget-container">
                                                         <div class="elementor-button-wrapper">
                                                             <a href="https://www.bionsce.com/about-us/" class="elementor-button-link elementor-button elementor-size-sm" role="button">
@@ -261,7 +261,7 @@
                                                                                 </div>
                                                                             </div>
                                                                         </div>
-                                                                        <div class="elementor-element elementor-element-a5a95bb elementor-align-right elementor-widget elementor-widget-button" data-id="a5a95bb" data-element_type="widget" data-widget_type="button.default">
+                                                                        <div class="elementor-element elementor-element-read-more elementor-align-right elementor-widget elementor-widget-button" data-id="a5a95bb" data-element_type="widget" data-widget_type="button.default">
                                                                             <div class="elementor-widget-container">
                                                                                 <div class="elementor-button-wrapper">
                                                                                     <a href="https://www.bionplc.com/product-services/#pro-1" class="elementor-button-link elementor-button elementor-size-sm" role="button">
@@ -324,7 +324,7 @@
                                                                                 </div>
                                                                             </div>
                                                                         </div>
-                                                                        <div class="elementor-element elementor-element-2c5b2e5 elementor-align-right elementor-widget elementor-widget-button" data-id="2c5b2e5" data-element_type="widget" data-widget_type="button.default">
+                                                                        <div class="elementor-element elementor-element-read-more elementor-align-right elementor-widget elementor-widget-button" data-id="2c5b2e5" data-element_type="widget" data-widget_type="button.default">
                                                                             <div class="elementor-widget-container">
                                                                                 <div class="elementor-button-wrapper">
                                                                                     <a href="https://www.bionplc.com/product-services/#pro-2" class="elementor-button-link elementor-button elementor-size-sm" role="button">
@@ -393,7 +393,7 @@
                                                                                 </div>
                                                                             </div>
                                                                         </div>
-                                                                        <div class="elementor-element elementor-element-4db6bdf elementor-align-right elementor-widget elementor-widget-button" data-id="4db6bdf" data-element_type="widget" data-widget_type="button.default">
+                                                                        <div class="elementor-element elementor-element-read-more elementor-align-right elementor-widget elementor-widget-button" data-id="4db6bdf" data-element_type="widget" data-widget_type="button.default">
                                                                             <div class="elementor-widget-container">
                                                                                 <div class="elementor-button-wrapper">
                                                                                     <a href="https://www.bionplc.com/product-services/#pro-2" class="elementor-button-link elementor-button elementor-size-sm" role="button">
@@ -438,7 +438,7 @@
                                                                                 </div>
                                                                             </div>
                                                                         </div>
-                                                                        <div class="elementor-element elementor-element-3c7b201 elementor-align-right elementor-widget elementor-widget-button" data-id="3c7b201" data-element_type="widget" data-widget_type="button.default">
+                                                                        <div class="elementor-element elementor-element-read-more elementor-align-right elementor-widget elementor-widget-button" data-id="3c7b201" data-element_type="widget" data-widget_type="button.default">
                                                                             <div class="elementor-widget-container">
                                                                                 <div class="elementor-button-wrapper">
                                                                                     <a href="https://www.bionplc.com/product-services/#pro-1" class="elementor-button-link elementor-button elementor-size-sm" role="button">

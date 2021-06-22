@@ -6,6 +6,11 @@ class Investor extends BaseController
 {
 	public function index()
 	{
-		return view('pages/investor-relations');
+		$data = [
+			"title" => "Investor Relations",
+			"page"  => "investor"
+		];
+
+		return view('pages/investor-relations', $data);
 	}
 }

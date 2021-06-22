@@ -10,7 +10,8 @@ class Home extends BaseController
 		// $userModel = new \App\Models\UserModel();
 		// $users = $userModel->findAll();
 		$data = [
-			"title" => "BIONSCE"
+			"title" => "BIONSCE",
+			"page"  => "HOME"
 		];
 		return view('pages/home', $data);
 	}

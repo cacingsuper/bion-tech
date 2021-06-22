@@ -5,7 +5,8 @@
 					<div class="elementor-row">
 						<div class="elementor-column elementor-col-50 elementor-top-column elementor-element elementor-element-23b59c6" data-id="23b59c6" data-element_type="column">
 							<div class="elementor-column-wrap">
-								<div class="elementor-widget-wrap">
+								<div class="elementor-widget-wrap" >
+									<img src="<?= base_url("logo.png")?>" alt="" style="height:80px">
 								</div>
 							</div>
 						</div>
@@ -15,7 +16,7 @@
 									<div class="elementor-element elementor-element-82cebf6 elementor-widget elementor-widget-text-editor" data-id="82cebf6" data-element_type="widget" data-widget_type="text-editor.default">
 										<div class="elementor-widget-container">
 											<div class="elementor-text-editor elementor-clearfix">
-												<p>COPYRIGHT © 2021 BiON. All rights reserved</p>
+												<p>COPYRIGHT © 2021 BiONSCE. All rights reserved</p>
 											</div>
 										</div>
 									</div>

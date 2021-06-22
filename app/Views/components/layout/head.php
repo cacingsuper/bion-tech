@@ -34,6 +34,8 @@
     <link rel="alternate" type="application/json+oembed" href="https://www.bionplc.com/wp-json/oembed/1.0/embed?url=https%3A%2F%2Fwww.bionplc.com%2F" />
     <link rel="alternate" type="text/xml+oembed" href="https://www.bionplc.com/wp-json/oembed/1.0/embed?url=https%3A%2F%2Fwww.bionplc.com%2F&#038;format=xml" />
     <meta name="generator" content="Site Kit by Google 1.28.0" />
+    <!-- VARIABLE CSS -->
+    <link rel='stylesheet' id='elementor-post-946-css' href='<?= base_url('css/color.css')?>' type='text/css' media='all' />
     <!-- Google Tag Manager added by Site Kit -->
     <script>
         (function(w, d, s, l, i) {
