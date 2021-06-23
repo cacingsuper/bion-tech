@@ -2,6 +2,9 @@
 <meta name="generator" content="WordPress 5.7.2" />
 <meta name="generator" content="Site Kit by Google 1.28.0" />
 <meta name="msapplication-TileImage" content="<?= base_url("logo.png") ?>" />
+<meta name="application-name" content="BIONSCE Indonesia <?= date("Y") ?>">
+<meta name="description" content="Member of BiONPLC">
+<meta name="msapplication-TileImage" content="<?= base_url("logo.png") ?>" />
 <link rel='dns-prefetch' href='//www.googletagmanager.com' />
 <link rel='dns-prefetch' href='//s.w.org' />
 <link rel='stylesheet' id='wp-block-library-css' href='https://www.bionplc.com/wp-includes/css/dist/block-library/style.min.css?ver=5.7.2' type='text/css' media='all' />
@@ -18,7 +21,7 @@
 <link rel='stylesheet' id='elementor-post-18-css' href='https://www.bionplc.com/wp-content/uploads/elementor/css/post-18.css?ver=1616984339' type='text/css' media='all' />
 <link rel='stylesheet' id='elementor-post-140-css' href='https://www.bionplc.com/wp-content/uploads/elementor/css/post-140.css?ver=1616984339' type='text/css' media='all' />
 <link rel="canonical" href="<?= current_url() ?>" />
-<link rel='shortlink' href='<?= current_url()?>' />
+<link rel='shortlink' href='<?= current_url() ?>' />
 <script type="text/javascript">
     window._wpemojiSettings = {
         "baseUrl": "https:\/\/s.w.org\/images\/core\/emoji\/13.0.1\/72x72\/",
@@ -117,6 +120,8 @@
 <link rel="icon" href="<?= base_url("logo.png") ?>" sizes="32x32" />
 <link rel="icon" href="<?= base_url("logo.png") ?>" sizes="192x192" />
 <link rel="apple-touch-icon" href="<?= base_url("logo.png") ?>" />
+<!-- VARIABLE CSS -->
+<link rel='stylesheet' id='elementor-post-946-css' href='<?= base_url('css/color.css')?>' type='text/css' media='all' />
 <!-- HEAD -->
 <link rel='stylesheet' href='<?= base_url("fontawesome/css/all.min.css") ?>' type='text/css' media='all' />
 <!-- GLOBAL CSS -->

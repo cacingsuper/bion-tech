@@ -1,7 +1,15 @@
 <!doctype html>
 <html lang="en-US">
 
-<?= view('components/layout/head') ?>
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link rel="profile" href="http://gmpg.org/xfn/11">
+    <title>HOME &#8211; Bionsce Indonesia</title>
+    <link rel='stylesheet' id='elementor-post-1850-css' href='https://www.bionplc.com/wp-content/uploads/elementor/css/post-1850.css?ver=1616984339' type='text/css' media='all' />
+    <?= view("components/layout/css")?>
+</head>
+
 
 <body class="home page-template-default page page-id-1850 wp-custom-logo elementor-default elementor-kit-946 elementor-page elementor-page-1850">
 
