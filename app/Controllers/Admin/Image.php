@@ -8,6 +8,8 @@ class Image extends BaseController
 {
 	public function __construct(){
 		$this->session = session();
+        $imageModel = new \App\Models\ImageModel();
+		$this->media_upload = $imageModel->findAll();
 	}
 	public function index()
 	{
@@ -24,9 +26,12 @@ class Image extends BaseController
 
     public function gallery()
     {
+        $list_image = $this->media_upload;
+        dd($list_image);
         $data = [
             "title" => "Images",
             "content" => (object)[
+                "menu"      => view("admin/pages/image/menu"),
                 "card_satu" => view("admin/pages/image/gallery"),
                 "card_dua"  => ""
             ],

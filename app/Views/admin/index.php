@@ -251,6 +251,8 @@
 
                 <div class="row layout-top-spacing">
 
+                    <?= (isset($content->menu)?$content->menu: NULL)?>
+
                     <?= (isset($content->card_satu)?$content->card_satu: NULL)?>
 
                     <?= (isset($content->card_dua)?$content->card_dua: NULL)?>

@@ -16,4 +16,6 @@
     <link href="<?= base_url("dashboard")?>/assets/css/dashboard/dash_1.css" rel="stylesheet" type="text/css" />
     <!-- END PAGE LEVEL PLUGINS/CUSTOM STYLES -->
     <link href="<?= base_url("dashboard")?>/assets/css/tables/table-basic.css" rel="stylesheet" type="text/css" />
+    <!-- FA -->
+    <link href="<?= base_url("fontawesome/css/all.min.css")?>" rel="stylesheet" type="text/css" />
 </head>
