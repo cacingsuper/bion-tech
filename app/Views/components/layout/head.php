@@ -6,7 +6,9 @@
     <meta name='robots' content='max-image-preview:large' />
     <meta name="generator" content="WordPress 5.7.2" />
     <meta name="generator" content="Site Kit by Google 1.28.0" />
-    <meta name="msapplication-TileImage" content="<?= base_url("logo.png")?>" />
+    <meta name="msapplication-TileImage" content="<?= base_url("logo.png") ?>" />
+    <meta name="application-name" content="BIONSCE Indonesia <?= date("Y") ?>">
+    <meta name="description" content="Member of BiONPLC">
     <link rel='dns-prefetch' href='//www.googletagmanager.com' />
     <link rel='dns-prefetch' href='//s.w.org' />
     <link rel="alternate" type="application/rss+xml" title="BiONSCE &raquo; Feed" href="https://www.bionsce.com/feed/" />
@@ -35,8 +37,6 @@
     <link rel='shortlink' href='https://www.bionsce.com/' />
     <link rel="alternate" type="application/json+oembed" href="https://www.bionplc.com/wp-json/oembed/1.0/embed?url=https%3A%2F%2Fwww.bionplc.com%2F" />
     <link rel="alternate" type="text/xml+oembed" href="https://www.bionplc.com/wp-json/oembed/1.0/embed?url=https%3A%2F%2Fwww.bionplc.com%2F&#038;format=xml" />
-    <!-- VARIABLE CSS -->
-    <link rel='stylesheet' id='elementor-post-946-css' href='<?= base_url('css/color.css')?>' type='text/css' media='all' />
     <!-- Google Tag Manager added by Site Kit -->
     <script>
         (function(w, d, s, l, i) {
@@ -54,9 +54,11 @@
         })(window, document, 'script', 'dataLayer', 'GTM-TMLJT5C');
     </script>
     <!-- End Google Tag Manager -->
-    <link rel="icon" href="<?= base_url("logo.png")?>" sizes="32x32" />
-    <link rel="icon" href="<?= base_url("logo.png")?>" sizes="192x192" />
-    <link rel="apple-touch-icon" href="<?= base_url("logo.png")?>" />
+    <link rel="icon" href="<?= base_url("logo.png") ?>" sizes="32x32" />
+    <link rel="icon" href="<?= base_url("logo.png") ?>" sizes="192x192" />
+    <link rel="apple-touch-icon" href="<?= base_url("logo.png") ?>" />
+    <!-- COLOR CSS -->
+    <link rel='stylesheet' id='elementor-post-946-css' href='<?= base_url('css/color.css') ?>' type='text/css' media='all' />
     <!-- HEAD -->
     <link rel='stylesheet' href='<?= base_url("fontawesome/css/all.min.css") ?>' type='text/css' media='all' />
     <!-- GLOBAL CSS -->
@@ -73,7 +75,7 @@
             "anonymize_ip": true
         });
     </script>
-     <script type="text/javascript">
+    <script type="text/javascript">
         window._wpemojiSettings = {
             "baseUrl": "https:\/\/s.w.org\/images\/core\/emoji\/13.0.1\/72x72\/",
             "ext": ".png",
@@ -121,17 +123,17 @@
         }(window, document, window._wpemojiSettings);
     </script>
     <style type="text/css">
-		img.wp-smiley,
-		img.emoji {
-			display: inline !important;
-			border: none !important;
-			box-shadow: none !important;
-			height: 1em !important;
-			width: 1em !important;
-			margin: 0 .07em !important;
-			vertical-align: -0.1em !important;
-			background: none !important;
-			padding: 0 !important;
-		}
-	</style>
+        img.wp-smiley,
+        img.emoji {
+            display: inline !important;
+            border: none !important;
+            box-shadow: none !important;
+            height: 1em !important;
+            width: 1em !important;
+            margin: 0 .07em !important;
+            vertical-align: -0.1em !important;
+            background: none !important;
+            padding: 0 !important;
+        }
+    </style>
 </head>
