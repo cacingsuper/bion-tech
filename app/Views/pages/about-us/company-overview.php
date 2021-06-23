@@ -388,7 +388,7 @@
 																		<div class="elementor-element elementor-element-8987258 elementor-align-left elementor-mobile-align-right elementor-widget elementor-widget-button" data-id="8987258" data-element_type="widget" data-widget_type="button.default">
 																			<div class="elementor-widget-container">
 																				<div class="elementor-button-wrapper">
-																					<a href="https://www.bionplc.com/board-of-directors-v2/" class="elementor-button-link elementor-button elementor-size-sm" role="button">
+																					<a href="<?= base_url("board-of-directors")?>" class="elementor-button-link elementor-button elementor-size-sm" role="button">
 																						<span class="elementor-button-content-wrapper">
 																							<span class="elementor-button-icon elementor-align-icon-right">
 																								<i aria-hidden="true" class="fas fa-arrow-right"></i> </span>
@@ -438,7 +438,7 @@
 																		<div class="elementor-element elementor-element-91cff51 elementor-align-left elementor-mobile-align-right elementor-widget elementor-widget-button" data-id="91cff51" data-element_type="widget" data-widget_type="button.default">
 																			<div class="elementor-widget-container">
 																				<div class="elementor-button-wrapper">
-																					<a href="https://www.bionplc.com/senior-management/" class="elementor-button-link elementor-button elementor-size-sm" role="button">
+																					<a href="<?= base_url("senior-management")?>" class="elementor-button-link elementor-button elementor-size-sm" role="button">
 																						<span class="elementor-button-content-wrapper">
 																							<span class="elementor-button-icon elementor-align-icon-right">
 																								<i aria-hidden="true" class="fas fa-arrow-right"></i> </span>

@@ -26,7 +26,7 @@ class About extends BaseController
 			"title" => "Senior Management",
 			"page"	=> "senior-managament"
 		];
-		return view('pages/about-us/senior-management');
+		return view('pages/about-us/senior-management', $data);
 	}
 	
 }
