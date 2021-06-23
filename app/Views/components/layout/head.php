@@ -4,6 +4,9 @@
     <link rel="profile" href="http://gmpg.org/xfn/11">
     <title><?= $title ?> &#8211; Indonesia</title>
     <meta name='robots' content='max-image-preview:large' />
+    <meta name="generator" content="WordPress 5.7.2" />
+    <meta name="generator" content="Site Kit by Google 1.28.0" />
+    <meta name="msapplication-TileImage" content="<?= base_url("logo.png")?>" />
     <link rel='dns-prefetch' href='//www.googletagmanager.com' />
     <link rel='dns-prefetch' href='//s.w.org' />
     <link rel="alternate" type="application/rss+xml" title="BiONSCE &raquo; Feed" href="https://www.bionsce.com/feed/" />
@@ -28,12 +31,10 @@
     <link rel="alternate" type="application/json" href="https://www.bionplc.com/wp-json/wp/v2/pages/1850" />
     <link rel="EditURI" type="application/rsd+xml" title="RSD" href="https://www.bionplc.com/xmlrpc.php?rsd" />
     <link rel="wlwmanifest" type="application/wlwmanifest+xml" href="https://www.bionplc.com/wp-includes/wlwmanifest.xml" />
-    <meta name="generator" content="WordPress 5.7.2" />
     <link rel="canonical" href="https://www.bionsce.com/" />
     <link rel='shortlink' href='https://www.bionsce.com/' />
     <link rel="alternate" type="application/json+oembed" href="https://www.bionplc.com/wp-json/oembed/1.0/embed?url=https%3A%2F%2Fwww.bionplc.com%2F" />
     <link rel="alternate" type="text/xml+oembed" href="https://www.bionplc.com/wp-json/oembed/1.0/embed?url=https%3A%2F%2Fwww.bionplc.com%2F&#038;format=xml" />
-    <meta name="generator" content="Site Kit by Google 1.28.0" />
     <!-- VARIABLE CSS -->
     <link rel='stylesheet' id='elementor-post-946-css' href='<?= base_url('css/color.css')?>' type='text/css' media='all' />
     <!-- Google Tag Manager added by Site Kit -->
@@ -56,7 +57,6 @@
     <link rel="icon" href="<?= base_url("logo.png")?>" sizes="32x32" />
     <link rel="icon" href="<?= base_url("logo.png")?>" sizes="192x192" />
     <link rel="apple-touch-icon" href="<?= base_url("logo.png")?>" />
-    <meta name="msapplication-TileImage" content="<?= base_url("logo.png")?>" />
     <!-- HEAD -->
     <link rel='stylesheet' href='<?= base_url("fontawesome/css/all.min.css") ?>' type='text/css' media='all' />
     <!-- GLOBAL CSS -->
