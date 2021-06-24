@@ -11,7 +11,15 @@ class Dashboard extends BaseController
 	}
 	public function index()
 	{
-        // echo "Welcome back, ".$this->session->get('username');
-		return view("admin/index");
+		$data = [
+			"title" => "Dashboard",
+			"breadcrumb"  => ["Dashboard", "Main"],
+			"content" => (object)[
+				"card_satu" 	=> NULL,
+				"card_dua" 		=> NULL,
+				"card_tiga"		=> NULL 
+			]
+		];
+		return view("admin/index", $data);
 	}
 }

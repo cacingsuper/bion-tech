@@ -11,7 +11,7 @@ class ImageModel extends Model
 
     protected $useAutoIncrement = true;
 
-    protected $returnType     = 'array';
+    protected $returnType     = 'object';
     // protected $returnType    = 'App\Entities\Image';
     protected $useSoftDeletes = true;
 

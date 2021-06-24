@@ -1,6 +1,5 @@
 <!--  BEGIN SIDEBAR  -->
 <div class="sidebar-wrapper sidebar-theme">
-            
             <nav id="sidebar">
                 <div class="shadow-bottom"></div>
                 <ul class="list-unstyled menu-categories" id="accordionExample">
@@ -36,7 +35,7 @@
                                 <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="feather feather-chevron-right"><polyline points="9 18 15 12 9 6"></polyline></svg>
                             </div>
                         </a>
-                        <ul class="collapse submenu list-unstyled <?= (strpos(current_url(), "images") ? "show": "")?>" id="images" data-parent="#accordionExample">
+                        <ul class="collapse submenu list-unstyled <?= (strpos(current_url(), "image") ? "show": "")?>" id="images" data-parent="#accordionExample">
                             <li class="<?= (strpos(current_url(), "image-gallery") ? "active": "")?>">
                                 <a href="<?= base_url("admin/image-gallery")?>"> Gallery </a>
                             </li>
@@ -48,7 +47,7 @@
                         <a href="#setting" data-toggle="collapse" data-active="<?= (strpos(current_url(), "setting") ? "true": "false")?>" aria-expanded="false" class="dropdown-toggle">
                             <div class="">
                             <?= view("admin/svg/setting")?>
-                            <span>Settings</span>
+                            <span>Setting</span>
                             </div>
                             <div>
                                 <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="feather feather-chevron-right"><polyline points="9 18 15 12 9 6"></polyline></svg>
@@ -57,6 +56,9 @@
                         <ul class="collapse submenu list-unstyled <?= (strpos(current_url(), "setting") ? "show": "")?>" id="setting" data-parent="#accordionExample">
                             <li class="<?= (strpos(current_url(), "setting-pages") ? "active": "")?>">
                                 <a href="<?= base_url("admin/setting-pages")?>"> Pages </a>
+                            </li>
+                            <li class="<?= (strpos(current_url(), "setting-info") ? "active": "")?>">
+                                <a href="<?= base_url("admin/setting-info")?>"> Info </a>
                             </li>
                         </ul>
                     </li>

@@ -51,9 +51,10 @@ $routes->get('/logout', 'Auth::logout');
 $routes->get('/admin', 'Admin/Dashboard::index',['filter' => 'auth']);
 $routes->get('/admin/setting', 'Admin/Setting::index',['filter' => 'auth']);
 $routes->get('/admin/setting-pages', 'Admin/Setting::pages',['filter' => 'auth']);
+$routes->get('/admin/setting-info', 'Admin/Setting::info',['filter' => 'auth']);
 $routes->get('/admin/image', 'Admin/Image::index',['filter' => 'auth']);
 $routes->get('/admin/image-gallery', 'Admin/Image::gallery',['filter' => 'auth']);
-
+$routes->post('/admin/image', 'Admin/Image::upload_gallery',['filter' => 'auth']);
 /*
  * --------------------------------------------------------------------
  * Additional Routing
