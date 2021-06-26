@@ -153,7 +153,11 @@
 																			<div class="elementor-widget-container">
 																				<div class="elementor-image">
 																					<a href="#elementor-action%3Aaction%3Dpopup%3Aopen%26settings%3DeyJpZCI6IjEyMzQiLCJ0b2dnbGUiOmZhbHNlfQ%3D%3D">
-																						<img width="374" height="502" src="https://www.bionplc.com/wp-content/uploads/2020/05/Mohd-Abdul-Karim-Abdullah.png" class="attachment-full size-full" alt="" loading="lazy" srcset="https://www.bionplc.com/wp-content/uploads/2020/05/Mohd-Abdul-Karim-Abdullah.png 374w, https://www.bionplc.com/wp-content/uploads/2020/05/Mohd-Abdul-Karim-Abdullah-224x300.png 224w" sizes="(max-width: 374px) 100vw, 374px" /> </a>
+																						<img width="374" height="502" 
+																						class="attachment-full size-full" alt="" loading="lazy" 
+																						src="<?= base_url()?>/img/board-of-directors/Mohd-Abdul-Karim-Abdullah.png" 
+																						srcset="<?= base_url()?>/img/board-of-directors/Mohd-Abdul-Karim-Abdullah.png 374w, 
+																						<?= base_url()?>/img/board-of-directors/Mohd-Abdul-Karim-Abdullah.png 224w" sizes="(max-width: 374px) 100vw, 374px" /> </a>
 																				</div>
 																			</div>
 																		</div>
@@ -271,7 +275,10 @@
 																			<div class="elementor-widget-container">
 																				<div class="elementor-image">
 																					<a href="#elementor-action%3Aaction%3Dpopup%3Aopen%26settings%3DeyJpZCI6IjE0ODgiLCJ0b2dnbGUiOmZhbHNlfQ%3D%3D">
-																						<img width="628" height="881" src="https://www.bionplc.com/wp-content/uploads/2020/11/bod_-Sofiyuddin_sill.png" class="attachment-full size-full" alt="" loading="lazy" srcset="https://www.bionplc.com/wp-content/uploads/2020/11/bod_-Sofiyuddin_sill.png 628w, https://www.bionplc.com/wp-content/uploads/2020/11/bod_-Sofiyuddin_sill-214x300.png 214w" sizes="(max-width: 628px) 100vw, 628px" /> </a>
+																						<img width="628" height="881" src="<?= base_url("img/board-of-directors/")?>/Mohd-Sofiyuddin-Ahmad-Tabrani.png" 
+																						class="attachment-full size-full" alt="" loading="lazy" 
+																						srcset="<?= base_url("img/board-of-directors/")?>/Mohd-Sofiyuddin-Ahmad-Tabrani.png 628w, 
+																						<?= base_url("img/board-of-directors/")?>/Mohd-Sofiyuddin-Ahmad-Tabrani.png 214w" sizes="(max-width: 628px) 100vw, 628px" /> </a>
 																				</div>
 																			</div>
 																		</div>
@@ -389,7 +396,11 @@
 																			<div class="elementor-widget-container">
 																				<div class="elementor-image">
 																					<a href="#elementor-action%3Aaction%3Dpopup%3Aopen%26settings%3DeyJpZCI6IjEyMzgiLCJ0b2dnbGUiOmZhbHNlfQ%3D%3D">
-																						<img width="374" height="502" src="https://www.bionplc.com/wp-content/uploads/2020/08/bod-habizan-04.png" class="attachment-full size-full" alt="" loading="lazy" srcset="https://www.bionplc.com/wp-content/uploads/2020/08/bod-habizan-04.png 374w, https://www.bionplc.com/wp-content/uploads/2020/08/bod-habizan-04-224x300.png 224w" sizes="(max-width: 374px) 100vw, 374px" /> </a>
+																						<img width="374" height="502" 
+																						class="attachment-full size-full" alt="" loading="lazy" 
+																						src="<?= base_url("img/board-of-directors") ?>/Habizan-Rahman-Habeeb-Rahman.png" 
+																						srcset="<?= base_url("img/board-of-directors") ?>/Habizan-Rahman-Habeeb-Rahman.png 374w, 
+																						<?= base_url("img/board-of-directors") ?>/Habizan-Rahman-Habeeb-Rahman.png 224w" sizes="(max-width: 374px) 100vw, 374px" /> </a>
 																				</div>
 																			</div>
 																		</div>
@@ -666,7 +677,12 @@
 															<div class="elementor-element elementor-element-44507928 elementor-widget elementor-widget-image" data-id="44507928" data-element_type="widget" data-widget_type="image.default">
 																<div class="elementor-widget-container">
 																	<div class="elementor-image">
-																		<img width="485" height="680" src="https://www.bionplc.com/wp-content/uploads/2020/11/bod_-Sofiyuddin.png" class="attachment-large size-large" alt="" loading="lazy" srcset="https://www.bionplc.com/wp-content/uploads/2020/11/bod_-Sofiyuddin.png 485w, https://www.bionplc.com/wp-content/uploads/2020/11/bod_-Sofiyuddin-214x300.png 214w" sizes="(max-width: 485px) 100vw, 485px" />
+																		<!-- <img width="485" height="680" src="https://www.bionplc.com/wp-content/uploads/2020/11/bod_-Sofiyuddin.png" class="attachment-large size-large" alt="" loading="lazy" srcset="https://www.bionplc.com/wp-content/uploads/2020/11/bod_-Sofiyuddin.png 485w, https://www.bionplc.com/wp-content/uploads/2020/11/bod_-Sofiyuddin-214x300.png 214w" sizes="(max-width: 485px) 100vw, 485px" /> -->
+																		<img width="485" height="680" 
+																		class="attachment-large size-large" alt="" loading="lazy" 
+																		src="<?= base_url("img/board-of-directors/")?>/Mohd-Sofiyuddin-Ahmad-Tabrani.png" 
+																		srcset="<?= base_url("img/board-of-directors/")?>/Mohd-Sofiyuddin-Ahmad-Tabrani.png 485w, 
+																		<?= base_url("img/board-of-directors/")?>/Mohd-Sofiyuddin-Ahmad-Tabrani.png 214w" sizes="(max-width: 485px) 100vw, 485px" />
 																	</div>
 																</div>
 															</div>
