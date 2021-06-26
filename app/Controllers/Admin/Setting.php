@@ -4,7 +4,7 @@ namespace App\Controllers\Admin;
 
 use App\Controllers\BaseController;
 use CodeIgniter\API\ResponseTrait;
-
+use CodeIgniter\HTTP\Files\UploadedFile;
 
 class Setting extends BaseController
 {
@@ -13,8 +13,9 @@ class Setting extends BaseController
 
 	public function __construct()
 	{
+		$this->session = session();
 		$this->infoModel = new \App\Models\InfoModel();
-		$this->info = $this->infoModel->findAll();
+		$this->info = $this->infoModel->find(1);
 	}
 	public function index()
 	{
@@ -37,8 +38,11 @@ class Setting extends BaseController
 	public function info()
 	{
 		$card_satu = [
-			"list_info" => $this->info
+			"list_info" => $this->info,
+			"email" 	=> explode(",",$this->info->email),
+			"phone"		=> explode(",",$this->info->phone),
 		];
+		
 		$data = [
 			"title" => "Setting | Info ",
 			"breadcrumb" => ["Setting", "Info"],
@@ -54,26 +58,31 @@ class Setting extends BaseController
 
 	public function update_info()
 	{
-		$this->validate([
-			'title' => 'required|min_length[3]|max_length[255]',
-			'body'  => 'required',
-		]);
-		
+		$file = $this->request->getFile("upload_logo");
+		if($file->isValid()){
+			$filename = $file->getRandomName();
+			$file->move(ROOTPATH . 'public/img', $filename);
+			$logo = base_url("img") . "/" . $filename;
+		}else{
+			$logo = $this->info->logo;
+		}
 		$data = [
+			'id'		=> 1,
 			'ketua_ceo' =>  $this->request->getPost('ketua_ceo'),
-			'wakil_ceo' => 	$this->request->getPost('ketua_ceo'),
-
-			'address1' =>  $this->request->getPost('address1'),
-			'address2' => 	$this->request->getPost('address2'),
-
-			'telp1' =>  $this->request->getPost('telp1'),
-			'telp2' => 	$this->request->getPost('telp2'),
-
-			'email' =>  [$this->request->getPost('email'), $this->request->getPost('email')],
-
-			'since' =>  $this->request->getPost('since'),
+			'wakil_ceo' => 	$this->request->getPost('wakil_ceo'),
+			'address1' 	=>  $this->request->getPost('address1'),
+			'address2' 	=> 	$this->request->getPost('address2'),
+			'phone' 	=>  "{$this->request->getPost('telp1')},{$this->request->getPost('telp2')}",
+			'email' 	=>  "{$this->request->getPost('email1')},{$this->request->getPost('email2')}",
+			'since' 	=>  $this->request->getPost('since'),
 			'employess' => 	$this->request->getPost('employees'),
+			'logo'  	=> $logo
 		];
-		$this->infoModel->save();
+		if($this->infoModel->save($data)){
+			$this->session->setFlashdata('success', 'Success !!! Update Data Info ');
+			return redirect()->to("admin/setting-info");
+		}
+		$this->session->setFlashdata('error', 'Danger!!! Update Data Gagal');
+		return redirect()->to("admin/setting-info");
 	}
 }

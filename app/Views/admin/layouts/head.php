@@ -21,5 +21,8 @@
      <!--  BEGIN CUSTOM STYLE FILE  -->
      <link href="<?= base_url("dashboard")?>/assets/css/scrollspyNav.css" rel="stylesheet" type="text/css" />
     <link rel="stylesheet" type="text/css" href="<?= base_url("dashboard")?>/plugins/bootstrap-select/bootstrap-select.min.css">
+
+    <!-- ALERT -->
+    <link rel="stylesheet" type="text/css" href="<?= base_url("dashboard")?>/assets/css/elements/alert.css">
     <!--  END CUSTOM STYLE FILE  -->
 </head>

@@ -58,4 +58,18 @@ class Image extends BaseController
         $this->imageModel->insert($data);
         return $this->respondCreated($data);
     }
+
+    public function board_directors(){
+        $data = [
+            "title" => "Board Of Directors",
+            "breadcrumb" => ["Images", "Board Of Directors"],
+            "content" => (object)[
+                // "menu"      => view("admin/pages/image/menu"),
+                // "card_satu" => view("admin/pages/image/gallery" , $card_satu),
+                "card_dua"  => ""
+            ],
+
+        ];
+		return view("admin/index" , $data);   
+    }
 }

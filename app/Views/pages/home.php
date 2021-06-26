@@ -210,7 +210,7 @@
                                                                         </div>
                                                                         <div class="elementor-element elementor-element-9db31a8 elementor-widget elementor-widget-heading" data-id="9db31a8" data-element_type="widget" data-widget_type="heading.default">
                                                                             <div class="elementor-widget-container">
-                                                                                <h1 class="elementor-heading-title elementor-size-default">Our Business Focus</h1>
+                                                                                <h1 class="elementor-heading-title elementor-size-default">OUR BUSINESS FOCUS</h1>
                                                                             </div>
                                                                         </div>
                                                                     </div>

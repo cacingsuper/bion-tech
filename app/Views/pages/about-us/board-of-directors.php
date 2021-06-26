@@ -332,7 +332,13 @@
 																			<div class="elementor-widget-container">
 																				<div class="elementor-image">
 																					<a href="#elementor-action%3Aaction%3Dpopup%3Aopen%26settings%3DeyJpZCI6IjE0MTIiLCJ0b2dnbGUiOmZhbHNlfQ%3D%3D">
-																						<img width="374" height="502" src="https://www.bionplc.com/wp-content/uploads/2020/04/Syed-Nazim-Syed-Faisal-Sil-2.png" class="attachment-full size-full" alt="" loading="lazy" srcset="https://www.bionplc.com/wp-content/uploads/2020/04/Syed-Nazim-Syed-Faisal-Sil-2.png 374w, https://www.bionplc.com/wp-content/uploads/2020/04/Syed-Nazim-Syed-Faisal-Sil-2-224x300.png 224w" sizes="(max-width: 374px) 100vw, 374px" /> </a>
+																						<!-- <img width="374" height="502" src="https://www.bionplc.com/wp-content/uploads/2020/04/Syed-Nazim-Syed-Faisal-Sil-2.png" class="attachment-full size-full" alt="" loading="lazy" srcset="https://www.bionplc.com/wp-content/uploads/2020/04/Syed-Nazim-Syed-Faisal-Sil-2.png 374w, https://www.bionplc.com/wp-content/uploads/2020/04/Syed-Nazim-Syed-Faisal-Sil-2-224x300.png 224w" sizes="(max-width: 374px) 100vw, 374px" /> </a> -->
+																						<img width="374" height="502" src="<?= base_url("/img/board-of-directors/")?>/EN-SYED-NAZIM-BIN-SYED-FAISAL-02.png" class="attachment-full size-full" alt="" loading="lazy" 
+																						srcset="
+																						<?= base_url("/img/board-of-directors/")?>/EN-SYED-NAZIM-BIN-SYED-FAISAL-02.png 374w, 
+																						https://www.bionplc.com/wp-content/uploads/2020/04/Syed-Nazim-Syed-Faisal-Sil-2-224x300.png 224w" 
+																						sizes="(max-width: 374px) 100vw, 374px" /> </a>
+
 																				</div>
 																			</div>
 																		</div>

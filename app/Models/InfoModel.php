@@ -14,7 +14,7 @@ class InfoModel extends Model
     protected $returnType     = 'object';
     // protected $returnType    = 'App\Entities\Image';
 
-    protected $allowedFields = ['id', 'ketua_ceo','wakil_ceo','address1','address2','email', 'telp1', 'telp2','since','employees','embed_map', 'visi_misi'];
+    protected $allowedFields = ['id', 'ketua_ceo','wakil_ceo','address1','address2','email', 'phone','since','employees','embed_map', 'visi_misi', 'logo', 'since'];
 
     protected $validationRules    = [];
     protected $validationMessages = [];
