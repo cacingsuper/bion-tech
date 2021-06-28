@@ -14,20 +14,15 @@
         height: 100%;
         min-height: 500px;
         width: 100%;
-        overflow: hidden;
-        display: flex;
-        flex-direction: column;
-        justify-content: center;
-        align-items: flex-start;
         cursor: pointer;
         transform-style: preserve-3d;
-        transition: all 1s ease;
+        transition: all 0.8s ease;
+        background-blend-mode: lighten;
     }
 
     .statbox .front h1,
     h5 {
         top: 0;
-        color: red;
     }
 
     .statbox .front img {
@@ -35,17 +30,19 @@
         left: 20%;
         object-fit: cover;
         object-position: center;
-        opacity: 0;
+        opacity: 0.05;
         cursor: pointer;
         max-height: 200;
-        transition: opacity 1s ease-in;
-        filter: brightness(120%);
+        transition: all 1s ease-in;
         -webkit-transition: opacity 1s;
+        backface-visibility: hidden ;
+        filter: brightness(10%);
     }
 
     .statbox .front:hover img {
         opacity: 1;
         transition: opacity 1s ease-in-out;
+        filter: brightness(100%);
     }
 
     .flip {
@@ -56,8 +53,7 @@
         width: 100%;
         height: 100%;
         position: absolute;
-        /* backface-visibility: hidden; */
-        background-color: black;
+        backface-visibility: hidden;
     }
 
     .statbox .back {
@@ -65,25 +61,30 @@
         height: 100%;
         position: absolute;
         transform: rotateY(180deg);
-        backface-visibility: hidden;
-        background-color: red;
+        backface-visibility: hidden !important;
     }
-    .widget{
+
+    .widget {
         padding: 0;
-    }    
+    }
+
+    .detail {
+        text-align: justify;
+        padding: 2rem;
+    }
 </style>
 <?php foreach ($list_persons as $person) : ?>
     <div class="col-lg-4 col-12">
         <div class="statbox widget box box-shadow">
-            <div class="kartu front">
-                <div class="back-image" style="background-image: url('<?= $person->img ?>');">
-                </div>
+            <div class="front">
                 <img src="<?= $person->img ?>" alt="<?= $person->nama ?>">
                 <h1 class="font-weight-bold p-4"><?= $person->nama ?></h1>
-                <h5 class="p-4"><?= $person->jabatan ?></h5>
+                <h5 class="px-4 text-danger"><?= $person->jabatan ?></h5>
             </div>
-            <div class="kartu back">
-                <h1 class="font-weight-bold">Toro</h1>
+            <div class="back">
+                <h1 class="font-weight-bold p-4"><?= $person->nama ?></h1>
+                <h5 class="px-4 text-danger"><?= $person->jabatan ?></h5>
+                <h6 class="detail"><?= $person->detail ?></h6>
             </div>
         </div>
     </div>
@@ -92,7 +93,6 @@
     document.querySelectorAll(".statbox").forEach(item => {
         item.addEventListener("click", (elem) => {
             item.classList.toggle("flip")
-            console.log(item)
         })
     })
 </script>

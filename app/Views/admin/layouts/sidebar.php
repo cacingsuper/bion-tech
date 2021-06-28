@@ -65,8 +65,8 @@
                     <li class="<?= (strpos(current_url(), "table-pages") ? "active" : "") ?>">
                         <a href="<?= base_url("admin/table-blog") ?>"> Blog</a>
                     </li>
-                    <li class="<?= (strpos(current_url(), "table-info") ? "active" : "") ?>">
-                        <a href="<?= base_url("admin/table-info") ?>"> Info </a>
+                    <li class="<?= (strpos(current_url(), "our-bussiness") ? "active" : "") ?>">
+                        <a href="<?= base_url("admin/our-business") ?>"> Our Business </a>
                     </li>
                 </ul>
             </li>
