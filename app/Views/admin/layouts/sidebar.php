@@ -4,7 +4,7 @@
         <div class="shadow-bottom"></div>
         <ul class="list-unstyled menu-categories" id="accordionExample">
             <li class="menu">
-                <a href="#dashboard" data-active="<?= (current_url() == base_url("admin") ? "true" : "false") ?>" data-toggle="collapse" aria-expanded="false" class="dropdown-toggle">
+                <a href="/admin" data-active="<?= (current_url() == base_url("admin") ? "true" : "false") ?>" class="dropdown-toggle">
                     <div class="">
                         <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="feather feather-home">
                             <path d="M3 9l9-7 9 7v11a2 2 0 0 1-2 2H5a2 2 0 0 1-2-2z"></path>
@@ -12,20 +12,7 @@
                         </svg>
                         <span>Dashboard</span>
                     </div>
-                    <div>
-                        <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="feather feather-chevron-right">
-                            <polyline points="9 18 15 12 9 6"></polyline>
-                        </svg>
-                    </div>
                 </a>
-                <ul class="collapse submenu list-unstyled <?= (current_url() == base_url("admin") ? "show" : "") ?>" id="dashboard" data-parent="#accordionExample">
-                    <li class="<?= (current_url() == base_url("admin") ? "active" : "") ?>">
-                        <a href="index.html"> Sales </a>
-                    </li>
-                    <li>
-                        <a href="index2.html"> Analytics </a>
-                    </li>
-                </ul>
             </li>
 
             <li class="menu">
@@ -51,10 +38,38 @@
                     <li class="<?= (strpos(current_url(), "board-of-directors") ? "active" : "") ?>">
                         <a href="<?= base_url("admin/board-of-directors") ?>"> Board Of Directors </a>
                     </li>
+                    <li class="<?= (strpos(current_url(), "image-url") ? "active" : "") ?>">
+                        <a href="<?= base_url("admin/image-url") ?>"> URL </a>
+                    </li>
                 </ul>
             </li>
 
-
+            <li class="menu">
+                <a href="#table" data-toggle="collapse" data-active="<?= (strpos(current_url(), "setting") ? "true" : "false") ?>" aria-expanded="false" class="dropdown-toggle">
+                    <div class="">
+                        <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="feather feather-grid">
+                            <rect x="3" y="3" width="7" height="7"></rect>
+                            <rect x="14" y="3" width="7" height="7"></rect>
+                            <rect x="14" y="14" width="7" height="7"></rect>
+                            <rect x="3" y="14" width="7" height="7"></rect>
+                        </svg>
+                        <span>Tables</span>
+                    </div>
+                    <div>
+                        <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="feather feather-chevron-right">
+                            <polyline points="9 18 15 12 9 6"></polyline>
+                        </svg>
+                    </div>
+                </a>
+                <ul class="collapse submenu list-unstyled <?= (strpos(current_url(), "table") ? "show" : "") ?>" id="table" data-parent="#accordionExample">
+                    <li class="<?= (strpos(current_url(), "table-pages") ? "active" : "") ?>">
+                        <a href="<?= base_url("admin/table-blog") ?>"> Blog</a>
+                    </li>
+                    <li class="<?= (strpos(current_url(), "table-info") ? "active" : "") ?>">
+                        <a href="<?= base_url("admin/table-info") ?>"> Info </a>
+                    </li>
+                </ul>
+            </li>
             <li class="menu">
                 <a href="#setting" data-toggle="collapse" data-active="<?= (strpos(current_url(), "setting") ? "true" : "false") ?>" aria-expanded="false" class="dropdown-toggle">
                     <div class="">
@@ -78,7 +93,6 @@
             </li>
         </ul>
         <!-- <div class="shadow-bottom"></div> -->
-
     </nav>
 
 </div>

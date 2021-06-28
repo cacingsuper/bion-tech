@@ -55,6 +55,7 @@ $routes->get('/admin/setting-info', 'Admin/Setting::info',['filter' => 'auth']);
 $routes->post('/admin/setting-info', 'Admin/Setting::update_info',['filter' => 'auth']);
 $routes->get('/admin/image', 'Admin/Image::index',['filter' => 'auth']);
 $routes->get('/admin/image-gallery', 'Admin/Image::gallery',['filter' => 'auth']);
+$routes->get('/admin/image-url', 'Admin/Image::url',['filter' => 'auth']);
 $routes->post('/admin/image', 'Admin/Image::upload_gallery',['filter' => 'auth']);
 $routes->get('/admin/board-of-directors', 'Admin/Image::board_directors',['filter' => 'auth']);
 /*

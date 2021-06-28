@@ -137,7 +137,7 @@
 														</div>
 													</div>
 												</section>
-												<section class="elementor-section elementor-inner-section elementor-element elementor-element-64e2973 elementor-section-boxed elementor-section-height-default elementor-section-height-default" data-id="64e2973" data-element_type="section">
+												<!-- <section class="elementor-section elementor-inner-section elementor-element elementor-element-64e2973 elementor-section-boxed elementor-section-height-default elementor-section-height-default" data-id="64e2973" data-element_type="section">
 													<div class="elementor-container elementor-column-gap-default">
 														<div class="elementor-row">
 															<div class="elementor-column elementor-col-33 elementor-inner-column elementor-element elementor-element-9f2485b" data-id="9f2485b" data-element_type="column">
@@ -211,8 +211,8 @@
 															</div>
 														</div>
 													</div>
-												</section>
-												<section class="elementor-section elementor-inner-section elementor-element elementor-element-169858b elementor-section-boxed elementor-section-height-default elementor-section-height-default" data-id="169858b" data-element_type="section">
+												</section> -->
+												<!-- <section class="elementor-section elementor-inner-section elementor-element elementor-element-169858b elementor-section-boxed elementor-section-height-default elementor-section-height-default" data-id="169858b" data-element_type="section">
 													<div class="elementor-container elementor-column-gap-default">
 														<div class="elementor-row">
 															<div class="elementor-column elementor-col-50 elementor-inner-column elementor-element elementor-element-f7a60e7" data-id="f7a60e7" data-element_type="column">
@@ -322,7 +322,7 @@
 															</div>
 														</div>
 													</div>
-												</section>
+												</section> -->
 												<section class="elementor-section elementor-inner-section elementor-element elementor-element-0967149 elementor-section-boxed elementor-section-height-default elementor-section-height-default" data-id="0967149" data-element_type="section">
 													<div class="elementor-container elementor-column-gap-default">
 														<div class="elementor-row">

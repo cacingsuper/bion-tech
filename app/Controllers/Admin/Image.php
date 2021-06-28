@@ -13,6 +13,7 @@ class Image extends BaseController
 		$this->session = session();
         $this->imageModel = new \App\Models\ImageModel();
 		$this->media_uploads = $this->imageModel->findAll();
+        $this->board_directors = \Config\Database::connect()->table('board_directors');
 	}
     
 	public function index()
@@ -59,13 +60,17 @@ class Image extends BaseController
         return $this->respondCreated($data);
     }
 
-    public function board_directors(){
+    public function board_directors()
+    {
+        $card_satu = [
+            "list_persons" => $this->board_directors->get()->getResult()
+        ];
         $data = [
             "title" => "Board Of Directors",
             "breadcrumb" => ["Images", "Board Of Directors"],
             "content" => (object)[
                 // "menu"      => view("admin/pages/image/menu"),
-                // "card_satu" => view("admin/pages/image/gallery" , $card_satu),
+                "card_satu" => view("admin/pages/image/director" ,$card_satu),
                 "card_dua"  => ""
             ],
 
