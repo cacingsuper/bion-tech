@@ -49,15 +49,18 @@ $routes->get('/logout', 'Auth::logout');
 //admin
 // $routes->get('/admin', 'Admin::index',['filter' => 'auth']);
 $routes->get('/admin', 'Admin/Dashboard::index',['filter' => 'auth']);
-$routes->get('/admin/setting', 'Admin/Setting::index',['filter' => 'auth']);
-$routes->get('/admin/setting-pages', 'Admin/Setting::pages',['filter' => 'auth']);
-$routes->get('/admin/setting-info', 'Admin/Setting::info',['filter' => 'auth']);
-$routes->post('/admin/setting-info', 'Admin/Setting::update_info',['filter' => 'auth']);
 $routes->get('/admin/image', 'Admin/Image::index',['filter' => 'auth']);
 $routes->get('/admin/image-gallery', 'Admin/Image::gallery',['filter' => 'auth']);
 $routes->get('/admin/image-url', 'Admin/Image::url',['filter' => 'auth']);
 $routes->post('/admin/image', 'Admin/Image::upload_gallery',['filter' => 'auth']);
 $routes->get('/admin/board-of-directors', 'Admin/Image::board_directors',['filter' => 'auth']);
+$routes->get('/admin/table-our-business', 'Admin/Table::our_business',['filter' => 'auth']);
+$routes->get('/api/table-our-business', 'Admin/Table::get_our_business');
+
+$routes->get('/admin/setting', 'Admin/Setting::index',['filter' => 'auth']);
+$routes->get('/admin/setting-pages', 'Admin/Setting::pages',['filter' => 'auth']);
+$routes->get('/admin/setting-info', 'Admin/Setting::info',['filter' => 'auth']);
+$routes->post('/admin/setting-info', 'Admin/Setting::update_info',['filter' => 'auth']);
 /*
  * --------------------------------------------------------------------
  * Additional Routing

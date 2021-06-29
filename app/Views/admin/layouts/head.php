@@ -25,4 +25,6 @@
     <!-- ALERT -->
     <link rel="stylesheet" type="text/css" href="<?= base_url("dashboard")?>/assets/css/elements/alert.css">
     <!--  END CUSTOM STYLE FILE  -->
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+    
 </head>

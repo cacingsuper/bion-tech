@@ -45,7 +45,7 @@
             </li>
 
             <li class="menu">
-                <a href="#table" data-toggle="collapse" data-active="<?= (strpos(current_url(), "setting") ? "true" : "false") ?>" aria-expanded="false" class="dropdown-toggle">
+                <a href="#table" data-toggle="collapse" data-active="<?= (strpos(current_url(), "table") ? "true" : "false") ?>" aria-expanded="false" class="dropdown-toggle">
                     <div class="">
                         <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="feather feather-grid">
                             <rect x="3" y="3" width="7" height="7"></rect>
@@ -62,7 +62,7 @@
                     </div>
                 </a>
                 <ul class="collapse submenu list-unstyled <?= (strpos(current_url(), "table") ? "show" : "") ?>" id="table" data-parent="#accordionExample">
-                    <li class="<?= (strpos(current_url(), "table-pages") ? "active" : "") ?>">
+                    <li class="<?= (strpos(current_url(), "table-blog") ? "active" : "") ?>">
                         <a href="<?= base_url("admin/table-blog") ?>"> Blog</a>
                     </li>
                     <li class="<?= (strpos(current_url(), "our-bussiness") ? "active" : "") ?>">
