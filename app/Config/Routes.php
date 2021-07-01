@@ -56,6 +56,7 @@ $routes->post('/admin/image', 'Admin/Image::upload_gallery',['filter' => 'auth']
 $routes->get('/admin/board-of-directors', 'Admin/Image::board_directors',['filter' => 'auth']);
 $routes->get('/admin/table-our-business', 'Admin/Table::our_business',['filter' => 'auth']);
 $routes->get('/api/table-our-business', 'Admin/Table::get_our_business');
+$routes->post('/api/table-our-business/(:num)/(:any)', 'Admin/Table::post_our_business/$1/$2');
 
 $routes->get('/admin/setting', 'Admin/Setting::index',['filter' => 'auth']);
 $routes->get('/admin/setting-pages', 'Admin/Setting::pages',['filter' => 'auth']);

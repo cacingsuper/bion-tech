@@ -41,6 +41,9 @@
                     <li class="<?= (strpos(current_url(), "image-url") ? "active" : "") ?>">
                         <a href="<?= base_url("admin/image-url") ?>"> URL </a>
                     </li>
+                    <li class="<?= (strpos(current_url(), "image-publish") ? "active" : "") ?>">
+                        <a href="<?= base_url("admin/image-publish") ?>"> Publish </a>
+                    </li>
                 </ul>
             </li>
 
@@ -66,7 +69,7 @@
                         <a href="<?= base_url("admin/table-blog") ?>"> Blog</a>
                     </li>
                     <li class="<?= (strpos(current_url(), "our-bussiness") ? "active" : "") ?>">
-                        <a href="<?= base_url("admin/our-business") ?>"> Our Business </a>
+                        <a href="<?= base_url("admin/table-our-business") ?>"> Our Business </a>
                     </li>
                 </ul>
             </li>

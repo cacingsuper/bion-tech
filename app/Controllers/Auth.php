@@ -31,6 +31,7 @@ class Auth extends BaseController
                     'role'      => $data->role
                 ];
                 $session->set($ses_data);
+                // $session->expire
                 return redirect()->to('/admin');
             }else{
                 $session->setFlashdata('msg', 'Wrong Password');

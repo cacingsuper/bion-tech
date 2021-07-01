@@ -4,11 +4,11 @@
 <script src="<?= base_url("dashboard/") ?>/bootstrap/js/bootstrap.min.js"></script>
 <script src="<?= base_url("dashboard/") ?>/plugins/perfect-scrollbar/perfect-scrollbar.min.js"></script>
 <script src="<?= base_url("dashboard/") ?>/assets/js/app.js"></script>
-<script>
+<!-- <script>
     $(document).ready(function() {
         App.init();
     });
-</script>
+</script> -->
 <script src="<?= base_url("dashboard/") ?>/assets/js/custom.js"></script>
 <!-- END GLOBAL MANDATORY SCRIPTS -->
 

@@ -1,9 +1,9 @@
 <style>
-    .textarea {
+    td {
         vertical-align: top !important;
     }
 
-    .textarea textarea {
+    textarea {
         border: none !important;
         outline: none !important;
         outline: none !important;
@@ -16,7 +16,7 @@
         /*remove the resize handle on the bottom right*/
     }
 
-    .textarea textarea::-webkit-scrollbar {
+    textarea::-webkit-scrollbar {
         display: none;
     }
 </style>
@@ -43,23 +43,44 @@
                         </tr>
                     </thead>
                     <tbody id="our-business">
-
                     </tbody>
                 </table>
             </div>
         </div>
     </div>
 </div>
+
+<script type="text/javascript">
+    function onChange(e){
+        let textarea = e.target.closest("tr").querySelectorAll("textarea")
+        const id = e.target.closest("tr").dataset.id
+        $.ajax({
+            type: 'post',
+            data: {
+                id: id,
+                name: e.target.name,
+                value: e.target.value
+            },
+            url: '/api/table-our-business/1/detail_html',
+            success: function(data) {
+                console.log(data)
+            },
+            error: function() {
+                console.log("error")
+            }
+        });
+    }
+</script>
 <script type="text/javascript">
     function btnClose(e) {
-        let content = e.target.closest("tr").querySelector(".textarea").querySelector("textarea").value
-        e.target.closest("tr").querySelector(".textarea").innerHTML = content
+        let content = e.target.closest("tr").querySelector(".detail_html").querySelector("textarea").value
+        e.target.closest("tr").querySelector(".detail_html").innerHTML = content
         e.target.closest("td").innerHTML = `<a href="javascript:void(0)" onclick="btnEdit(event)"><svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="feather feather-edit-2"><path d="M17 3a2.828 2.828 0 1 1 4 4L7.5 20.5 2 22l1.5-5.5L17 3z"></path></svg></a>`
     }
 
     function btnEdit(e) {
-        let content = e.target.closest("tr").querySelector(".textarea").innerHTML
-        e.target.closest("tr").querySelector(".textarea").innerHTML = `<textarea rows="20" class="form-control p-0 m-0">${content}</textarea>`
+        let content = e.target.closest("tr").querySelector(".detail_html").innerHTML
+        e.target.closest("tr").querySelector(".detail_html").innerHTML = `<textarea oninput="onChange(event)" name="detail_html" rows="20" class="form-control p-0 m-0">${content}</textarea>`
         e.target.closest("td").innerHTML = `<a href="javascript:void(0)" onclick="btnClose(event)" class="btnClose"><svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="feather feather-x"><line x1="18" y1="6" x2="6" y2="18"></line><line x1="6" y1="6" x2="18" y2="18"></line></svg></a>`
     }
     $(document).ready(function() {
@@ -69,12 +90,12 @@
             success: function(data) {
                 let html = "";
                 for (item in data) {
-                    html += `<tr>`;
+                    html += `<tr data-id="${data[item].id}">`;
                     html += `<td>${data[item].id}</td>`,
                         html += `<td>${data[item].name_business || ""}</td>`
                     html += `<td>${data[item].abbreviation || ""}</td>`
-                    html += `<td>${data[item].detail_business || ""}</td>`
-                    html += `<td style="min-width:400px" class="textarea">${data[item].detail_html || ""}</td>`
+                    html += `<td class="detail_business">${data[item].detail_business || ""}</td>`
+                    html += `<td style="min-width:400px" class="detail_html">${data[item].detail_html || ""}</td>`
                     html += `<td class="text-center"><a href="javascript:void(0)" onclick="btnEdit(event)">
                     <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="feather feather-edit-2"><path d="M17 3a2.828 2.828 0 1 1 4 4L7.5 20.5 2 22l1.5-5.5L17 3z"></path></svg></a></td>`
                     html += `</tr>`
