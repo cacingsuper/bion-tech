@@ -3,18 +3,21 @@
 namespace App\Controllers\Admin;
 use App\Controllers\BaseController;
 use CodeIgniter\API\ResponseTrait;
-
+use CodeIgniter\HTTP\RequestInterface;
+use CodeIgniter\HTTP\Files\UploadedFile;
 
 class Image extends BaseController
 {
     use ResponseTrait;
-
-	public function __construct(){
-		$this->session = session();
+    
+    public function __construct()
+    {
+        $this->session = session();
         $this->imageModel = new \App\Models\ImageModel();
 		$this->media_uploads = $this->imageModel->findAll();
         $this->board_directors = \Config\Database::connect()->table('board_directors');
-	}
+        $this->request = \Config\Services::request();
+    }
     
 	public function index()
 	{
@@ -58,6 +61,31 @@ class Image extends BaseController
         ];
         $this->imageModel->insert($data);
         return $this->respondCreated($data);
+    }
+    public function media_upload(){
+        $data = $this->media_uploads; 
+        return $this->respond($data, 200);
+    }
+    public function post_media_upload(){
+        $file = $this->request->getFile("media_upload");
+        $filename = $file->getRandomName();
+        $data = [
+            'filename'  => $filename,
+            'path'      => "/img/" . $filename,
+            'mime_type' => $file->getMimeType(),
+            'size'      => $file->getSize(),
+            // 'created_at'=> date("Y-m-d H:i:s")
+        ];
+        if($file->isValid()){
+            $file->move(ROOTPATH . 'public/img', $filename);
+            $this->imageModel->insert($data);
+            return $this->respondCreated($data);
+        }else{
+            $error = [
+                'error' => throw new \RuntimeException($file->getErrorString().'('.$file->getError().')')
+            ];
+            return $this->respond($error, 400);
+        }
     }
 
     public function board_directors()

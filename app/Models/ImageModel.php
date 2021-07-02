@@ -15,9 +15,9 @@ class ImageModel extends Model
     // protected $returnType    = 'App\Entities\Image';
     protected $useSoftDeletes = true;
 
-    protected $allowedFields = ['id', 'filename','path','alt','size', 'keterangan'];
+    protected $allowedFields = ['id', 'filename','path','alt','size', 'keterangan','mime_type', 'created_at'];
 
-    protected $useTimestamps = false;
+    protected $useTimestamps = true;
     protected $createdField  = 'created_at';
     protected $updatedField  = 'updated_at';
     protected $deletedField  = 'deleted_at';

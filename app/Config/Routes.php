@@ -53,6 +53,11 @@ $routes->get('/admin/image', 'Admin/Image::index',['filter' => 'auth']);
 $routes->get('/admin/image-gallery', 'Admin/Image::gallery',['filter' => 'auth']);
 $routes->get('/admin/image-url', 'Admin/Image::url',['filter' => 'auth']);
 $routes->post('/admin/image', 'Admin/Image::upload_gallery',['filter' => 'auth']);
+$routes->group('api',['filter' => 'auth'], function($routes)
+{
+    $routes->get('media-upload', 'Admin/Image::media_upload');
+	$routes->post('media-upload', 'Admin/Image::post_media_upload');
+});
 $routes->get('/admin/board-of-directors', 'Admin/Image::board_directors',['filter' => 'auth']);
 $routes->get('/admin/table-our-business', 'Admin/Table::our_business',['filter' => 'auth']);
 $routes->get('/api/table-our-business', 'Admin/Table::get_our_business');
