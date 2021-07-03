@@ -44,15 +44,15 @@ class Table extends BaseController
         return $this->respond($data, 200);
     }
 
-    public function post_our_business($id=false, $field=false){
+    public function post_our_business($id, $field){
         $request = \Config\Services::request();
+        $input = $this->request->getPost("value");
         $method = strtoupper($request->getMethod());
-        dd($id);
         $db      = \Config\Database::connect();
         $builder = $db->table('our_business');
         $builder->where('id', $id);
-        $builder->update($data);
-        $data    = $builder->get()->getResult();
+        $builder->set($field, $input);
+        $data    =  $builder->update();
         return $this->respond($data, 200);
     }
 }

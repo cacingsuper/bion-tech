@@ -15,7 +15,6 @@
             <button class="btn btn-danger"><i class="fa fa-trash"></i></button>
         </div>
     </div>
-
 </div>
 
 <script>
@@ -32,7 +31,7 @@
         ).then(
             success => {
                 showGallery()
-            } // Handle the success response object
+            } 
         ).catch(
             error => console.log(error) // Handle the error response object
         );

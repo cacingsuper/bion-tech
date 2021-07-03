@@ -41,7 +41,7 @@ $routes->get('/senior-management', 'About::senior_management');
 $routes->get('/product-services', 'Business::index');
 $routes->get('/investor-relations', 'Contact::index');
 //auth
-$routes->get('/login', 'Auth::login');
+$routes->get('/login', 'Auth::login', ['filter' => 'auth']);
 $routes->post('/login_proses', 'Auth::login_proses');
 $routes->get('/register', 'Auth::register');
 $routes->post('/register_proses', 'Auth::register_proses');
@@ -53,15 +53,18 @@ $routes->get('/admin/image', 'Admin/Image::index',['filter' => 'auth']);
 $routes->get('/admin/image-gallery', 'Admin/Image::gallery',['filter' => 'auth']);
 $routes->get('/admin/image-url', 'Admin/Image::url',['filter' => 'auth']);
 $routes->post('/admin/image', 'Admin/Image::upload_gallery',['filter' => 'auth']);
-$routes->group('api',['filter' => 'auth'], function($routes)
+$routes->group('api',[
+	'namespace' => 'App\Controllers\Admin',
+	'filter' => 'auth'	
+], function($routes)
 {
-    $routes->get('media-upload', 'Admin/Image::media_upload');
-	$routes->post('media-upload', 'Admin/Image::post_media_upload');
+    $routes->get('media-upload', 'Image::media_upload');
+	$routes->post('media-upload', 'Image::post_media_upload');
+	$routes->get('table-our-business', 'Table::get_our_business');
+	$routes->post('table-our-business/(:num)/(:segment)' ,'Table::post_our_business/$1/$2');
 });
 $routes->get('/admin/board-of-directors', 'Admin/Image::board_directors',['filter' => 'auth']);
 $routes->get('/admin/table-our-business', 'Admin/Table::our_business',['filter' => 'auth']);
-$routes->get('/api/table-our-business', 'Admin/Table::get_our_business');
-$routes->post('/api/table-our-business/(:num)/(:any)', 'Admin/Table::post_our_business/$1/$2');
 
 $routes->get('/admin/setting', 'Admin/Setting::index',['filter' => 'auth']);
 $routes->get('/admin/setting-pages', 'Admin/Setting::pages',['filter' => 'auth']);
