@@ -41,7 +41,7 @@ $routes->get('/senior-management', 'About::senior_management');
 $routes->get('/product-services', 'Business::index');
 $routes->get('/investor-relations', 'Contact::index');
 //auth
-$routes->get('/login', 'Auth::login', ['filter' => 'auth']);
+$routes->get('/login', 'Auth::login');
 $routes->post('/login_proses', 'Auth::login_proses');
 $routes->get('/register', 'Auth::register');
 $routes->post('/register_proses', 'Auth::register_proses');
