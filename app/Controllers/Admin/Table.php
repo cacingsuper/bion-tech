@@ -40,6 +40,7 @@ class Table extends BaseController
     public function get_our_business(){
         $db      = \Config\Database::connect();
         $builder = $db->table('our_business');
+        $builder->join('media_upload', 'media_upload.id = our_business.id_media_upload');
         $data    = $builder->get()->getResult();
         return $this->respond($data, 200);
     }
@@ -47,11 +48,11 @@ class Table extends BaseController
     public function post_our_business($id, $field){
         $request = \Config\Services::request();
         $input = $this->request->getPost("value");
-        $method = strtoupper($request->getMethod());
         $db      = \Config\Database::connect();
         $builder = $db->table('our_business');
         $builder->where('id', $id);
         $builder->set($field, $input);
+        $builder->set('updated_at', date("Y-m-d H:i:s"));
         $data    =  $builder->update();
         return $this->respond($data, 200);
     }

@@ -51,15 +51,16 @@ $routes->get('/logout', 'Auth::logout');
 $routes->get('/admin', 'Admin/Dashboard::index',['filter' => 'auth']);
 $routes->get('/admin/image', 'Admin/Image::index',['filter' => 'auth']);
 $routes->get('/admin/image-gallery', 'Admin/Image::gallery',['filter' => 'auth']);
-$routes->get('/admin/image-url', 'Admin/Image::url',['filter' => 'auth']);
 $routes->post('/admin/image', 'Admin/Image::upload_gallery',['filter' => 'auth']);
 $routes->group('api',[
 	'namespace' => 'App\Controllers\Admin',
 	'filter' => 'auth'	
 ], function($routes)
 {
+	$routes->post('url-upload', 'Image::url_upload');
     $routes->get('media-upload', 'Image::media_upload');
 	$routes->post('media-upload', 'Image::post_media_upload');
+	$routes->delete('media-upload', 'Image::delete_media_upload');
 	$routes->get('table-our-business', 'Table::get_our_business');
 	$routes->post('table-our-business/(:num)/(:segment)' ,'Table::post_our_business/$1/$2');
 });

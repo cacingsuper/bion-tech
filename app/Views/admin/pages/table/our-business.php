@@ -16,7 +16,8 @@
         font-size: 14pt;
     }
     textarea {
-        background-color:#E2E5E9 !important;
+        background-color:black !important;
+        color: gray !important;
         border: none !important;
         outline: none !important;
         outline: none !important;
@@ -95,7 +96,7 @@
             success: function(data) {
                 let html = "";
                 for (item in data) {
-                    html += `<div class="business col-lg-12 mb-4" data-id="${data[item].id}"><div class="statbox widget box box-shadow"><div class="widget-header">`;
+                    html += `<div class="business col-lg-9 mb-4" data-id="${data[item].id}"><div class="statbox widget box box-shadow"><div class="widget-header">`;
                     html += `<div class="d-flex justify-content-between">`
                     html += `<div>`;
                     html += `<h3 class="title text-primary">${data[item].name_business || ""}</h3>`
@@ -114,7 +115,9 @@
                     html += `</div></div>`;
                     html += `<div></div>`
                     html += `</div></div></div>`
-                    html += `<div class=""></div>`
+                    html += `<div class="col-lg-3">`
+                    html += `<img loading="lazy" class="img-fluid img-thumbnail" src="${data[item].path || ""}" />`
+                    html += `</div>`
                 }
                 document.getElementById("our-business").innerHTML = html
 

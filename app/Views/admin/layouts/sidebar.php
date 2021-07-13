@@ -38,9 +38,6 @@
                     <li class="<?= (strpos(current_url(), "board-of-directors") ? "active" : "") ?>">
                         <a href="<?= base_url("admin/board-of-directors") ?>"> Board Of Directors </a>
                     </li>
-                    <li class="<?= (strpos(current_url(), "image-url") ? "active" : "") ?>">
-                        <a href="<?= base_url("admin/image-url") ?>"> URL </a>
-                    </li>
                     <li class="<?= (strpos(current_url(), "image-publish") ? "active" : "") ?>">
                         <a href="<?= base_url("admin/image-publish") ?>"> Publish </a>
                     </li>
@@ -74,9 +71,30 @@
                 </ul>
             </li>
             <li class="menu">
+                <a href="#pages" data-toggle="collapse" data-active="<?= (strpos(current_url(), "pages") ? "true" : "false") ?>" aria-expanded="false" class="dropdown-toggle">
+                    <div class="">
+                        <?= view("admin/svg/pages.svg") ?>
+                        <span>Pages</span>
+                    </div>
+                    <div>
+                        <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="feather feather-chevron-right">
+                            <polyline points="9 18 15 12 9 6"></polyline>
+                        </svg>
+                    </div>
+                </a>
+                <ul class="collapse submenu list-unstyled <?= (strpos(current_url(), "setting") ? "show" : "") ?>" id="pages" data-parent="#accordionExample">
+                    <li class="<?= (strpos(current_url(), "setting-pages") ? "active" : "") ?>">
+                        <a href="<?= base_url("admin/setting-pages") ?>"> Pages </a>
+                    </li>
+                    <li class="<?= (strpos(current_url(), "setting-info") ? "active" : "") ?>">
+                        <a href="<?= base_url("admin/setting-info") ?>"> Info </a>
+                    </li>
+                </ul>
+            </li>
+            <li class="menu">
                 <a href="#setting" data-toggle="collapse" data-active="<?= (strpos(current_url(), "setting") ? "true" : "false") ?>" aria-expanded="false" class="dropdown-toggle">
                     <div class="">
-                        <?= view("admin/svg/setting") ?>
+                        <?= view("admin/svg/gear.svg") ?>
                         <span>Setting</span>
                     </div>
                     <div>

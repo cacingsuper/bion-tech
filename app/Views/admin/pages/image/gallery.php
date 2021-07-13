@@ -34,10 +34,37 @@
         font-size: 5pt;
         align-items: right;
     }
+
+    .titik {
+        opacity: 0;
+    }
 </style>
 <div id="list-gallery" class="row mx-2 w-100"></div>
 
 <script>
+    function deleteMedia() {
+        document.querySelectorAll("input[type='checkbox']").forEach(item => {
+            if (item.checked) {
+                fetch("/api/media-upload", {
+                        method: "DELETE",
+                        body: JSON.stringify({
+                            id: item.dataset.id
+                        }),
+                        headers: {
+                            'Content-Type': 'application/json'
+                        },
+
+                    })
+                    .then(res => res.json())
+                    .then(data => showGallery())
+                    .catch(err => console.log(err))
+            }
+        })
+    }
+
+    // window.onload = () => {
+
+    // }
     const showGallery = () => {
         let html = "";
         let state = []
@@ -46,12 +73,12 @@
             .then(data => {
                 for (item in data) {
                     html += `<div class="col-lg-2 col-6 mb-2 px-1">`
-                    html += `<div class="img-gallery rounded" style="background-image: url('<?= base_url("/") ?>${data[item].path}')">`
+                    html += `<div class="img-gallery rounded" style="background-image: url('${data[item].path}')">`
                     html += `<div class="btn-check">
             <div class="n-chk">
             <label class="new-control new-checkbox new-checkbox-rounded checkbox-primary">
-            <input type="checkbox" class="new-control-input" name="image">
-            <span class="new-control-indicator text-large"></span>.
+            <input data-id="${data[item].id}" type="checkbox" class="new-control-input" name="image">
+            <span class="new-control-indicator text-large"></span><span class="titik">.<span>
             </label>
             </div>
             </div></div>`
@@ -63,9 +90,9 @@
                 document.querySelector("#list-gallery").innerHTML = html
             })
             .catch(error => console.log(error))
-
     }
     document.addEventListener("DOMContentLoaded", () => {
         showGallery()
+
     })
 </script>
