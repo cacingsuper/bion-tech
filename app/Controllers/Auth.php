@@ -1,4 +1,4 @@
-<?php 
+<?php
 
 namespace App\Controllers;
 
@@ -7,22 +7,30 @@ use App\Models\UserModel;
 
 
 class Auth extends BaseController
-{   
+{
+
+    public function __construct()
+    {
+        helper('form');
+        $this->form_validation = \Config\Services::validation();
+    }
+
     public function login()
     {
         echo view('login');
     }
 
-    public function login_proses(){
+    public function login_proses()
+    {
         $session = session();
         $model = new UserModel();
         $email = $this->request->getVar('email');
         $password = $this->request->getVar('password');
         $data = $model->where('email', $email)->first();
-        if($data){
+        if ($data) {
             $pass = $data->password_hash;
             $verify_pass = password_verify($password, $pass);
-            if($verify_pass){
+            if ($verify_pass) {
                 $ses_data = [
                     'id'        => $data->id,
                     'username'  => $data->username,
@@ -33,11 +41,11 @@ class Auth extends BaseController
                 $session->set($ses_data);
                 // $session->expire
                 return redirect()->to('/admin');
-            }else{
+            } else {
                 $session->setFlashdata('msg', 'Wrong Password');
                 return redirect()->to('/login');
             }
-        }else{
+        } else {
             $session->setFlashdata('msg', 'Email not Found');
             return redirect()->to('/login');
         }
@@ -48,35 +56,51 @@ class Auth extends BaseController
         $session->destroy();
         return redirect()->to('/');
     }
-    
+
     public function register()
-    {  
-        $data = [];
-        // view('register', $data);
+    {
+        $data = [
+            'validation' => $this->validator
+        ];
+        return view('register', $data);
     }
-    
-    public function register_proses(){
-            $validation = [
-                'username' => 'required|min_length[3]|max_length[20]',
-                'email'=> 'required|min_length[6]|max_length[50]|valid_email|is_unique[users.email]',
-                'password' => 'required|min_length[6]|max_length[200]',
-                'confpassword' => 'matches[password]'
+
+    public function register_proses()
+    {
+        $validation = [
+            'username'      => [
+                'rules' => 'required|min_length[3]|max_length[20]|is_unique[users.username]',
+                'errors' => [
+                    'required' => "Username tidak boleh kosong",
+                    'is_unique' => 'Username ini sudah terdaftar'
+                ]
+            ],
+            'email'         => [
+                'rules'  => 'required|valid_email|is_unique[users.email]',
+                'errors' => [
+                    'required' => "Email tidak boleh kosong",
+                    'valid_email' => 'Please check the Email field. It does not appear to be valid.',
+                    'is_unique' => 'Email ini sudah terdaftar'
+                ]
+            ],
+            'password'      => 'required|min_length[6]|max_length[200]',
+            'confpassword'  => 'matches[password]'
+        ];
+        if ($this->validate($validation)) {
+            $model = new UserModel();
+            $data = [
+                'username'  => $this->request->getVar('username'),
+                'email' => $this->request->getVar('email'),
+                'password_hash' => password_hash($this->request->getVar('password'), PASSWORD_DEFAULT)
             ];
-            if($this->validate($validation))
-            {
-                $model = new UserModel();
-                $data = [
-                    'username'  => $this->request->getVar('username'),
-                    'email' => $this->request->getVar('email'),
-                    'password_hash' => password_hash($this->request->getVar('password'), PASSWORD_DEFAULT)
-                ];
-                $model->save($data);
-                return redirect()->to('/login');
-            }
-            else
-            {
-                $data['validation'] = $this->validator;
-                echo view('register', $data);
-            }
+            $model->save($data);
+            return redirect()->to('/login');
+        } else {
+            $data = [
+                'validation' => $this->validator
+            ];
+            // return view('register', $data);
+            return redirect()->to("register")->withInput()->with("errors", $this->validator);
         }
+    }
 }

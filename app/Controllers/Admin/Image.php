@@ -25,7 +25,7 @@ class Image extends BaseController
         $data = [
             "title" => "Images",
             "breadcrumb" => ["Images", ""],
-            "content" => [
+            "content" => (object) [
                 "card_satu" => "",
                 "card_dua"  => ""
             ],
@@ -146,9 +146,12 @@ class Image extends BaseController
         return view("admin/index", $data);
     }
 
-    public function delete_media_upload(){
+    public function delete_media_upload()
+    {
+        helper('filesystem');
         $deleted_by = session()->get('username');
         $id = $this->request->getVar("id");
+        $path = $this->imageModel->find($id)->path;
         $this->imageModel->update($id, ["deleted_by" => $deleted_by]);
         $this->imageModel->delete($id);
         // Item successfully deleted
