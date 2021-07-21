@@ -36,6 +36,7 @@ $routes->get('/', 'Home::index');
 $routes->get('/contact-us', 'Contact::index');
 $routes->get('/gallery', 'Gallery::index');
 $routes->get('/about-us', 'About::index');
+$routes->get('/company-overview', 'About::company_overview');
 $routes->get('/board-of-directors', 'About::board_directors');
 $routes->get('/senior-management', 'About::senior_management');
 $routes->get('/product-services', 'Business::index');

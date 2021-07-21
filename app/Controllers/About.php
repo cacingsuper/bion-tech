@@ -7,8 +7,15 @@ class About extends BaseController
 	public function index()
 	{
 		$data = [
-			"title" => "Company Overview",
+			"title" => "About",
 			"page" 	=> "about"
+		];
+		return view('pages/about-us', $data);
+	}
+	public function company_overview(){
+		$data = [
+			"title" => "Company Overview",
+			"page" 	=> "company"
 		];
 		return view('pages/about-us/company-overview', $data);
 	}

@@ -76,7 +76,7 @@ class Auth extends BaseController
                 ]
             ],
             'email'         => [
-                'rules'  => 'required|valid_email|is_unique[users.email]',
+                'rules'  => 'required|valid_email|is_unique[users.email]', 
                 'errors' => [
                     'required' => "Email tidak boleh kosong",
                     'valid_email' => 'Please check the Email field. It does not appear to be valid.',
