@@ -118,7 +118,7 @@
                         </section>
 
                         <section class="elementor-section elementor-top-section elementor-element elementor-element-7c84b7d elementor-section-stretched elementor-section-full_width elementor-section-height-default elementor-section-height-default" data-id="7c84b7d" data-element_type="section" data-settings="{&quot;stretch_section&quot;:&quot;section-stretched&quot;,&quot;background_background&quot;:&quot;classic&quot;}">
-                            <div class="w-100 px-4 py-2">
+                            <div class="w-100 px-4 py-2" style="overflow-x:scroll">
                                 <div class="row">
                                     <div class="col-lg-3">
                                         <div class="col-lg-12 col-12 p-2">
@@ -236,7 +236,7 @@
                                                             <h5>Investment Holding</h5>
                                                         </div>
                                                         <div class="p-2 text-center">
-                                                            <h6>100%</h6>
+                                                            <h3>100%</h3>
                                                             <h6>BiON Venture</h6>
                                                         </div>
                                                     </div>
@@ -252,7 +252,7 @@
                                                             <h5 class="text-white">Technology</h5>
                                                         </div>
                                                         <div class="text-center p-2">
-                                                            <h6 class="fw-bolder">100%</h6>
+                                                            <h3 class="fw-bolder">100%</h3>
                                                             <h6>BiON Tech Engineering (UK)</h6>
                                                         </div>
                                                     </div>
@@ -268,47 +268,47 @@
                                         </div>
 
                                         <div class="row">
-                                            <div class="col-lg-2 p-0 mr-2">
+                                            <div class="col-lg-2 col-3 p-0 mr-1 my-0">
                                                 <div class="w-100">
                                                     <hr style="height:50px;width:2px;border-width:2;color:red;background-color:red">
-                                                    <div class="rounded my-2 shadow">
+                                                    <div class="rounded shadow">
                                                         <div class="text-center p-2" style="background-color:#91C637">
                                                             <h5>Biogas</h5>
                                                         </div>
                                                         <div class="text-center p-2">
-                                                            <h6 class="fw-bold">100%</h6>
+                                                            <h3 class="fw-bolder">100%</h3>
                                                             <h6>BiON Sdn Bhd</h6>
                                                         </div>
                                                     </div>
                                                 </div>
                                             </div>
-                                            <div class="col-lg-2 p-0 mx-5 ">
+                                            <div class="col-lg-2 col-3 p-0 mx-1 ">
                                                 <div class="w-100">
                                                     <div class="d-flex justify-content-center">
                                                         <hr style="height:50px;width:2px;border-width:2;color:red;background-color:red">
                                                     </div>
-                                                    <div class="rounded mx-2 p-2 bg-dark">
+                                                    <div class="rounded m-0 p-2 bg-dark text-center">
                                                         <h6 class="text-white">Teknology Partner</h6>
                                                     </div>
                                                 </div>
                                             </div>
-                                            <div class="col-lg-2 p-0 mx-5">
+                                            <div class="col-lg-2 col-3 p-0 mx-1">
                                                 <div class="w-100">
                                                     <div class="d-flex justify-content-center">
                                                         <hr style="height:50px;width:2px;border-width:2;color:red;background-color:red">
                                                     </div>
-                                                    <div class="rounded mx-2 shadow" >
+                                                    <div class="rounded mx-1 shadow" >
                                                         <div class="text-center p-2" style="background-color:#F7BB00">
                                                             <h5>Solar</h5>
                                                         </div>
                                                         <div class="text-center p-2">
-                                                            <h6 class="fw-bold">100%</h6>
-                                                            <p>BiON Suria</p>
+                                                            <h3 class="fw-bolder">100%</h3>
+                                                            <h6>BiON Suria</h6>
                                                         </div>
                                                     </div>
                                                 </div>
                                             </div>
-                                            <div class="col-lg-2 p-0 mx-4">
+                                            <div class="col-lg-2 col-3 p-0 m-0">
                                                 <div class="w-100">
                                                     <div class="d-flex justify-content-center">
                                                         <hr style="height:50px;width:2px;border-width:2;color:red;background-color:red">
@@ -318,7 +318,7 @@
                                                             <h5>Waste To Value</h5>
                                                         </div>
                                                         <div class="text-center p-2">
-                                                            <h6 class="fw-bold">67%</h6>
+                                                            <h3 class="fw-bolder">67%</h3>
                                                             <h6>BiON SCE Indonesia</h6>
                                                         </div>
                                                     </div>
@@ -327,49 +327,32 @@
                                         </div>
 
                                         <div class="row">
-                                            <div class="col-lg-2 p-0 mr-2">
+                                            <div class="col-lg-2 p-0 mr-1">
                                                 <div class="w-100">
                                                     <hr style="height:50px;width:2px;border-width:2;color:red;background-color:red">
                                                     <div class="rounded my-2 p-2 text-center shadow" style="background-color:#91C637">
-                                                        <h6 class="fw-bolder">15%</h6>
+                                                        <h3 class="fw-bolder">15%</h3>
                                                         <h6>Megagreen</h6>
                                                         <h6>Energy Sdn Bhd</h6>
                                                     </div>
                                                 </div>
                                             </div>
-                                            <div class="col-lg-2 p-0 mx-5 ">
-                                                <div class="w-100">
-                                                    <div class="d-flex justify-content-center">
-                                                        <hr style="height:50px;width:2px;border-width:2;color:red;background-color:red">
-                                                    </div>
-                                                    <div class="rounded my-2 p-4">
-                                                        <h6>Technology</h6>
-                                                        <h6>100%</h6>
-                                                        <h6>BiON Tech Engineering (UK)</h6>
-                                                    </div>
-                                                </div>
+                                            <div class="col-lg-2 p-0 mx-1 ">
+
                                             </div>
                                             <div class="col-lg-2 p-0 mx-5">
                                                 <div class="w-100">
                                                     <div class="d-flex justify-content-center">
-                                                        <hr style="height:50px;width:2px;border-width:2;color:red;background-color:red">
+                                                        <hr style="height:50px;width:0;border-width:2;color:red;background-color:transparent">
                                                     </div>
-                                                    <div class="rounded my-2 p-4">
-                                                        <h6>Technology</h6>
-                                                        <h6>100%</h6>
-                                                        <h6>BiON Tech Engineering (UK)</h6>
-                                                    </div>
-                                                </div>
-                                            </div>
-                                            <div class="col-lg-2 p-0 mx-4">
-                                                <div class="w-100">
-                                                    <div class="d-flex justify-content-center">
-                                                        <hr style="height:50px;width:2px;border-width:2;color:red;background-color:red">
-                                                    </div>
-                                                    <div class="rounded my-2 p-4">
-                                                        <h6>Technology</h6>
-                                                        <h6>100%</h6>
-                                                        <h6>BiON Tech Engineering (UK)</h6>
+                                                    <div class="rounded my-2 shadow">
+                                                    <div class="text-center p-2" style="background-color: red;">
+                                                        <h6>Assets For Sale</h6>
+                                                    </div> 
+                                                    <div class="text-center p-2">
+                                                        <h3 class="fw-bolder">51%</h3>
+                                                        <h6>Our Energy Group (M) Sdn Bhd</h6>
+                                                    </div>   
                                                     </div>
                                                 </div>
                                             </div>
