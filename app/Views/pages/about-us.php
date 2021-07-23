@@ -118,7 +118,7 @@
                         </section>
 
                         <section class="elementor-section elementor-top-section elementor-element elementor-element-7c84b7d elementor-section-stretched elementor-section-full_width elementor-section-height-default elementor-section-height-default" data-id="7c84b7d" data-element_type="section" data-settings="{&quot;stretch_section&quot;:&quot;section-stretched&quot;,&quot;background_background&quot;:&quot;classic&quot;}">
-                            <div class="w-100 px-4 py-2" style="overflow-x:scroll">
+                            <div class="w-100 px-4 py-2">
                                 <div class="row">
                                     <div class="col-lg-3">
                                         <div class="col-lg-12 col-12 p-2">
@@ -194,165 +194,177 @@
                                             </div>
                                         </div>
                                     </div>
-                                    <div class="col-lg-9">
-                                        <div class="row d-flex justify-content-center">
-                                            <div style="width:12rem" class="">
-                                                <img src="/img/bion_logo.svg" alt="">
-                                            </div>
-                                        </div>
-                                        <div class="row">
-                                            <div class="col-lg-12 col-12 d-flex justify-content-center">
-                                                <hr style="height:25px;width:2px;border-width:2;color:red;background-color:red">
-                                            </div>
-                                        </div>
-                                        <div class="row d-flex">
-                                            <div class="col-lg-6 col-6 p-0 m-0">
-                                            </div>
-                                            <div class="col-lg-6 col-6 p-0 m-0">
-                                                <div class="w-50">
-                                                    <hr style="height:2px;border-width:2;color:red;background-color:green">
+                                    <style>
+                                        @media (max-width:500px) {
+                                            .mobile{
+                                                display: inline-block;
+                                                overflow-x: scroll;
+                                                min-width: 700px;
+                                                max-width: 700px;
+                                            }
+                                            
+
+                                        }
+                                    </style>
+                                    <div class="col-lg-9 col-12 overflow-x-hidden">
+                                        <div class="mobile p-5">
+                                            <div class="row d-flex justify-content-center">
+                                                <div style="width:12rem" class="">
+                                                    <img src="/img/bion_logo.svg" alt="">
                                                 </div>
                                             </div>
-                                        </div>
-                                        <div class="row">
-                                            <div class="col-lg-12 col-12 d-flex justify-content-center">
-                                                <hr style="height:25px;width:2px;border-width:2;color:red;background-color:red">
+                                            <div class="row">
+                                                <div class="col-lg-12 col-12 d-flex justify-content-center">
+                                                    <hr style="height:25px;width:2px;border-width:2;color:red;background-color:red">
+                                                </div>
                                             </div>
-                                        </div>
-                                        <div class="row">
-                                            <div class="col-lg-6 col-6 p-0 m-0">
-                                                <div class="col-lg-6 col-6 d-flex float-end">
+                                            <div class="row d-flex justify-content-between">
+                                                <div class="col-lg-3 col-6 m-0 p-0 d-flex justify-content-center">
+                                                    <div class="w-100">
+                                                        <hr style="margin-left:50%;height:2px;border-width:2;color:red;background-color:red">
+                                                        <div class="d-flex justify-content-center">
+                                                            <hr style="height:50px;width:2px;border-width:2;color:red;background-color:red">
+                                                        </div>
+                                                        <div class="px-3">
+                                                            <div class="shadow rounded overflow-hidden">
+                                                                <div class="p-2 text-center" style="background-color:#91C637">
+                                                                    <h5>Investment Holding</h5>
+                                                                </div>
+                                                                <div class="p-2 text-center">
+                                                                    <h3 class="fw-bolder">100%</h3>
+                                                                    <h6>BiON Venture</h6>
+                                                                </div>
+                                                            </div>
+                                                        </div>
+                                                        <div class="col-lg-12 col-12 d-flex justify-content-center">
+                                                            <hr style="height:50px;width:2px;border-width:2;color:red;background-color:red">
+                                                        </div>
+                                                    </div>
+                                                </div>
+                                                <div class="col-lg-6 col-1 m-0 p-0 d-flex justify-content-center">
+                                                    <div class="w-100">
+                                                        <hr style="height:2px;border-width:2;color:red;background-color:red">
+                                                    </div>
+                                                </div>
+                                                <div class="col-lg-3 col-5 d-flex justify-content-center m-0 p-0">
+                                                    <div class="w-100">
+                                                        <hr style="margin-right:50%;height:2px;border-width:2;color:red;background-color:red">
+                                                        <div class="d-flex justify-content-center">
+                                                            <hr style="height:50px;width:2px;border-width:2;color:red;background-color:red">
+                                                        </div>
+                                                        <div class="px-3">
+                                                            <div class="shadow rounded overflow-hidden">
+                                                                <div class="p-2 text-center" style="background-color: #03244A">
+                                                                    <h5 class="text-white">Technology</h5>
+                                                                </div>
+                                                                <div class="text-center p-2">
+                                                                    <h3 class="fw-bolder">100%</h3>
+                                                                    <h6>BiON Tech Engineering (UK)</h6>
+                                                                </div>
+                                                            </div>
+                                                        </div>
+                                                    </div>
+                                                </div>
+                                            </div>
+                                            <div class="row">
+                                                <div class="p-0 m-0">
                                                     <div class="w-100">
                                                         <hr style="height:2px;border-width:2;color:red;background-color:red">
                                                     </div>
                                                 </div>
                                             </div>
-                                        </div>
-                                        <div class="row d-flex justify-content-between">
-                                            <div class="col-lg-3 col-6 d-flex justify-content-center">
-                                                <div class="w-100">
-                                                    <div class="shadow rounded m-2">
-                                                        <div class="p-2 text-center" style="background-color:#91C637">
-                                                            <h5>Investment Holding</h5>
-                                                        </div>
-                                                        <div class="p-2 text-center">
-                                                            <h3>100%</h3>
-                                                            <h6>BiON Venture</h6>
-                                                        </div>
-                                                    </div>
-                                                    <div class="col-lg-12 col-12 d-flex justify-content-center">
-                                                        <hr style="height:50px;width:2px;border-width:2;color:red;background-color:red">
-                                                    </div>
-                                                </div>
-                                            </div>
-                                            <div class="col-lg-3 col-6 d-flex justify-content-center">
-                                                <div class="w-100">
-                                                    <div class="shadow rounded m-2">
-                                                        <div class="p-2 text-center" style="background-color: #03244A">
-                                                            <h5 class="text-white">Technology</h5>
-                                                        </div>
-                                                        <div class="text-center p-2">
-                                                            <h3 class="fw-bolder">100%</h3>
-                                                            <h6>BiON Tech Engineering (UK)</h6>
-                                                        </div>
-                                                    </div>
-                                                </div>
-                                            </div>
-                                        </div>
-                                        <div class="row">
-                                            <div class="p-0 m-0">
-                                                <div class="w-100">
-                                                    <hr style="height:2px;border-width:2;color:red;background-color:red">
-                                                </div>
-                                            </div>
-                                        </div>
 
-                                        <div class="row">
-                                            <div class="col-lg-2 col-3 p-0 mr-1 my-0">
-                                                <div class="w-100">
-                                                    <hr style="height:50px;width:2px;border-width:2;color:red;background-color:red">
-                                                    <div class="rounded shadow">
-                                                        <div class="text-center p-2" style="background-color:#91C637">
-                                                            <h5>Biogas</h5>
+                                            <div class="row">
+                                                <div class="col-lg-3 col-3 p-0 m-0">
+                                                    <div class="w-100">
+                                                        <hr style="height:50px;width:2px;border-width:2;color:red;background-color:red">
+                                                        <div class="rounded shadow ms-0 mx-1 overflow-hidden">
+                                                            <div class="text-center p-2" style="background-color:#91C637">
+                                                                <h5>Biogas</h5>
+                                                            </div>
+                                                            <div class="text-center p-2">
+                                                                <h3 class="fw-bolder">100%</h3>
+                                                                <h6>BiON Sdn Bhd</h6>
+                                                            </div>
                                                         </div>
-                                                        <div class="text-center p-2">
-                                                            <h3 class="fw-bolder">100%</h3>
-                                                            <h6>BiON Sdn Bhd</h6>
-                                                        </div>
-                                                    </div>
-                                                </div>
-                                            </div>
-                                            <div class="col-lg-2 col-3 p-0 mx-1 ">
-                                                <div class="w-100">
-                                                    <div class="d-flex justify-content-center">
                                                         <hr style="height:50px;width:2px;border-width:2;color:red;background-color:red">
                                                     </div>
-                                                    <div class="rounded m-0 p-2 bg-dark text-center">
-                                                        <h6 class="text-white">Teknology Partner</h6>
-                                                    </div>
                                                 </div>
-                                            </div>
-                                            <div class="col-lg-2 col-3 p-0 mx-1">
-                                                <div class="w-100">
-                                                    <div class="d-flex justify-content-center">
-                                                        <hr style="height:50px;width:2px;border-width:2;color:red;background-color:red">
-                                                    </div>
-                                                    <div class="rounded mx-1 shadow" >
-                                                        <div class="text-center p-2" style="background-color:#F7BB00">
-                                                            <h5>Solar</h5>
-                                                        </div>
-                                                        <div class="text-center p-2">
-                                                            <h3 class="fw-bolder">100%</h3>
-                                                            <h6>BiON Suria</h6>
-                                                        </div>
-                                                    </div>
-                                                </div>
-                                            </div>
-                                            <div class="col-lg-2 col-3 p-0 m-0">
-                                                <div class="w-100">
-                                                    <div class="d-flex justify-content-center">
-                                                        <hr style="height:50px;width:2px;border-width:2;color:red;background-color:red">
-                                                    </div>
-                                                    <div class="rounded mx-2 shadow">
-                                                        <div class="text-center p-2 bg-danger" >
-                                                            <h5>Waste To Value</h5>
-                                                        </div>
-                                                        <div class="text-center p-2">
-                                                            <h3 class="fw-bolder">67%</h3>
-                                                            <h6>BiON SCE Indonesia</h6>
-                                                        </div>
-                                                    </div>
-                                                </div>
-                                            </div>
-                                        </div>
 
-                                        <div class="row">
-                                            <div class="col-lg-2 p-0 mr-1">
-                                                <div class="w-100">
-                                                    <hr style="height:50px;width:2px;border-width:2;color:red;background-color:red">
-                                                    <div class="rounded my-2 p-2 text-center shadow" style="background-color:#91C637">
-                                                        <h3 class="fw-bolder">15%</h3>
-                                                        <h6>Megagreen</h6>
-                                                        <h6>Energy Sdn Bhd</h6>
+                                                <div class="col-lg-3 col-3 p-0 m-0">
+                                                    <div class="w-100">
+                                                        <div class="d-flex justify-content-center">
+                                                            <hr style="height:50px;width:2px;border-width:2;color:red;background-color:red">
+                                                        </div>
+                                                        <div class="rounded mx-1 shadow overflow-hidden">
+                                                            <div class="text-center p-2" style="background-color:#F7BB00">
+                                                                <h5>Solar</h5>
+                                                            </div>
+                                                            <div class="text-center p-2">
+                                                                <h3 class="fw-bolder">100%</h3>
+                                                                <h6>BiON Suria</h6>
+                                                            </div>
+                                                        </div>
+                                                    </div>
+                                                </div>
+
+                                                <div class="col-lg-3 col-3 p-0 m-0">
+                                                    <div class="w-100">
+                                                        <div class="d-flex justify-content-center">
+                                                            <hr style="height:50px;width:2px;border-width:2;color:red;background-color:red">
+                                                        </div>
+                                                        <div class="rounded mx-1 shadow overflow-hidden">
+                                                            <div class="text-center p-2 bg-danger">
+                                                                <h5>Waste To Value</h5>
+                                                            </div>
+                                                            <div class="text-center p-2">
+                                                                <h3 class="fw-bolder">67%</h3>
+                                                                <h6>BiON SCE Indonesia</h6>
+                                                            </div>
+                                                        </div>
+                                                    </div>
+                                                </div>
+                                                <div class="col-lg-3 col-3 p-0 m-0 ">
+                                                    <div class="w-100">
+                                                        <div class="d-flex justify-content-center">
+                                                            <hr style="height:50px;width:2px;border-width:2;color:red;background-color:red">
+                                                        </div>
+                                                        <div class="rounded mx-1 p-2 bg-dark text-center">
+                                                            <h6 class="text-white">Teknology Partner</h6>
+                                                        </div>
                                                     </div>
                                                 </div>
                                             </div>
-                                            <div class="col-lg-2 p-0 mx-1 ">
 
-                                            </div>
-                                            <div class="col-lg-2 p-0 mx-5">
-                                                <div class="w-100">
-                                                    <div class="d-flex justify-content-center">
-                                                        <hr style="height:50px;width:0;border-width:2;color:red;background-color:transparent">
+                                            <div class="row">
+                                                <div class="col-lg-3 col-3 p-0 m-0">
+                                                    <div class="w-100">
+                                                        <div class="">
+                                                            <hr style="height:50px;width:2px;border-width:2;color:red;background-color:red">
+                                                        </div>
+                                                        <div class="shadow rounded" style="background-color:#91C637">
+                                                            <div class="p-2 text-center">
+                                                                <h3 class="fw-bolder">15%</h3>
+                                                                <h6>Megagreen</h6>
+                                                                <h6>Energy Sdn Bhd</h6>
+                                                            </div>
+                                                        </div>
                                                     </div>
-                                                    <div class="rounded my-2 shadow">
-                                                    <div class="text-center p-2" style="background-color: red;">
-                                                        <h6>Assets For Sale</h6>
-                                                    </div> 
-                                                    <div class="text-center p-2">
-                                                        <h3 class="fw-bolder">51%</h3>
-                                                        <h6>Our Energy Group (M) Sdn Bhd</h6>
-                                                    </div>   
+                                                </div>
+                                                <div class="col-lg-3 col-3 p-0 mx-1">
+                                                    <div class="w-100">
+                                                        <div class="d-flex justify-content-center">
+                                                            <hr style="height:50px;width:0;border-width:2;color:red;background-color:transparent">
+                                                        </div>
+                                                        <div class="rounded shadow overflow-hidden">
+                                                            <div class="text-center p-2 " style="background-color: red;">
+                                                                <h6>Assets For Sale</h6>
+                                                            </div>
+                                                            <div class="text-center p-2">
+                                                                <h3 class="fw-bolder">51%</h3>
+                                                                <h6>Our Energy Group (M) Sdn Bhd</h6>
+                                                            </div>
+                                                        </div>
                                                     </div>
                                                 </div>
                                             </div>
