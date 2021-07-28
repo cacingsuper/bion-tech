@@ -1,3 +1,8 @@
+<style>
+    .elementor-18 .elementor-element.elementor-element-7ef84c9 .elementor-nav-menu--main .elementor-item{
+        color:white !important
+    }
+</style>
 <div data-elementor-type="header" data-elementor-id="18" class="elementor elementor-18 elementor-location-header" data-elementor-settings="[]">
     <div class="elementor-section-wrap">
         <section class="elementor-section elementor-top-section elementor-element elementor-element-0ee4399 elementor-section-height-min-height elementor-section-boxed elementor-section-height-default elementor-section-items-middle" data-id="0ee4399" data-element_type="section" data-settings="{&quot;sticky&quot;:&quot;top&quot;,&quot;background_background&quot;:&quot;classic&quot;,&quot;sticky_on&quot;:[&quot;desktop&quot;,&quot;tablet&quot;,&quot;mobile&quot;],&quot;sticky_offset&quot;:0,&quot;sticky_effects_offset&quot;:0}">
