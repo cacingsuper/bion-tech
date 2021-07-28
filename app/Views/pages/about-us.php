@@ -99,11 +99,7 @@
                                                                                 </div>
                                                                             </div>
                                                                         </div>
-                                                                        <div class="elementor-element elementor-element-173d904 elementor-widget elementor-widget-heading" data-id="173d904" data-element_type="widget" data-widget_type="heading.default">
-                                                                            <div class="elementor-widget-container">
-                                                                                <h1 class="elementor-heading-title elementor-size-default">About Us</h1>
-                                                                            </div>
-                                                                        </div>
+                                                                       
                                                                     </div>
                                                                 </div>
                                                             </div>
@@ -118,96 +114,21 @@
                         </section>
 
                         <section class="elementor-section elementor-top-section elementor-element elementor-element-7c84b7d elementor-section-stretched elementor-section-full_width elementor-section-height-default elementor-section-height-default" data-id="7c84b7d" data-element_type="section" data-settings="{&quot;stretch_section&quot;:&quot;section-stretched&quot;,&quot;background_background&quot;:&quot;classic&quot;}">
-                            <div class="w-100 px-4 py-2">
-                                <div class="row">
-                                    <div class="col-lg-3">
-                                        <div class="col-lg-12 col-12 p-2">
-                                            <div class="elementor-element elementor-element-173d904 elementor-widget elementor-widget-heading" data-id="173d904" data-element_type="widget" data-widget_type="heading.default">
-                                                <div class="elementor-widget-container">
-                                                    <h3 class="elementor-heading-title elementor-size-default">Bion Shareholders</h3>
-                                                </div>
-                                            </div>
-                                        </div>
-                                        <div class="col-lg-12 col-12 p-2">
-                                            <div class="bg-light rounded shadow p-3">
-                                                <div class="d-flex text-dark">
-                                                    <div class="bg-success rounded d-flex justify-content-center align-items-center" style="min-height:5rem;min-width:5rem">
-                                                        <h4 class="m-2 p-0">10.9</h4>
-                                                    </div>
-                                                    <div style="max-height: 5rem;">
-                                                        <ul style="list-style: number;">
-                                                            <li>Innvotec Nominees Ltd</li>
-                                                            <li>Navindran Balakhrishnan</li>
-                                                            <li>Saravnan Rasaratnam</li>
-                                                            <li>Simon Peter</li>
-                                                        </ul>
-                                                    </div>
-                                                </div>
-                                            </div>
-                                        </div>
-                                        <div class="col-lg-12 col-12 p-2">
-                                            <div class="bg-light rounded shadow p-3">
-                                                <div class="d-flex text-dark">
-                                                    <div class="bg-success rounded d-flex justify-content-center align-items-center" style="min-height:5rem;min-width:5rem">
-                                                        <h4 class="m-2 p-0">20</h4>
-                                                    </div>
-                                                    <div style="max-height: 5rem;" class="d-flex justify-content-center align-items-center">
-                                                        <h5 class="p-3">Datuk Syed Nazim</h5>
-                                                    </div>
-                                                </div>
-                                            </div>
-                                        </div>
-                                        <div class="col-lg-12 col-12 p-2">
-                                            <div class="bg-light rounded shadow p-3">
-                                                <div class="d-flex text-dark">
-                                                    <div class="rounded d-flex justify-content-center align-items-center" style="min-height:5rem;min-width:5rem;background:#3880C3">
-                                                        <h4 class="m-2 p-0">4.5</h4>
-                                                    </div>
-                                                    <div style="max-height: 5rem;">
-                                                        <img style="object-fit:contain;" class="p-2 w-100 h-100" class="img-fluid" src="/img/MTDC.png" alt="MTDC">
-                                                    </div>
-                                                </div>
-                                            </div>
-                                        </div>
-                                        <div class="col-lg-12 col-12 p-2">
-                                            <div class="bg-light rounded shadow p-3">
-                                                <div class="d-flex text-dark">
-                                                    <div class="rounded d-flex justify-content-center align-items-center" style="min-height:5rem;min-width:5rem;background:#3880C3">
-                                                        <h4 class="m-2 p-0">20</h4>
-                                                    </div>
-                                                    <div style="max-height: 5rem;">
-                                                        <img style="object-fit: contain;" class="p-2 w-100 h-100" class="img-fluid" src="/img/serba-dinamik.png" alt="MTDC">
-                                                    </div>
-                                                </div>
-                                            </div>
-                                        </div>
-                                        <div class="col-lg-12 col-12 p-2">
-                                            <div class="bg-light rounded shadow p-3">
-                                                <div class="d-flex text-dark">
-                                                    <div class="rounded d-flex justify-content-center align-items-center" style="min-height:5rem;min-width:5rem;background:#3880C3">
-                                                        <h4 class="m-2 p-0">26.5</h4>
-                                                    </div>
-                                                    <div style="max-height: 5rem;" class="d-flex justify-content-center align-items-center">
-                                                        <h5 class="p-3">KM2V</h5>
-                                                    </div>
-                                                </div>
-                                            </div>
-                                        </div>
-                                    </div>
-                                    <style>
-                                        @media (max-width:500px) {
-                                            .mobile{
-                                                display: inline-block;
-                                                overflow-x: scroll;
-                                                min-width: 700px;
-                                                max-width: 700px;
+                            <div class="w-100 px-4">
+                                <div class="row">  
+                                <style>
+                                        @media (max-width:700px) {
+                                            h5{
+                                                font-size: 11pt;
                                             }
-                                            
+                                            h6{
+                                                font-size: 10pt;
+                                            }
 
                                         }
                                     </style>
                                     <div class="col-lg-9 col-12 overflow-x-hidden">
-                                        <div class="mobile p-5">
+                                        <div class="">
                                             <div class="row d-flex justify-content-center">
                                                 <div style="width:12rem" class="">
                                                     <img src="/img/bion_logo.svg" alt="">
@@ -330,7 +251,7 @@
                                                             <hr style="height:50px;width:2px;border-width:2;color:red;background-color:red">
                                                         </div>
                                                         <div class="rounded mx-1 p-2 bg-dark text-center">
-                                                            <h6 class="text-white">Teknology Partner</h6>
+                                                            <h5 class="text-white">Technology Partner</h5>
                                                         </div>
                                                     </div>
                                                 </div>
@@ -370,6 +291,81 @@
                                             </div>
                                         </div>
                                     </div>
+                                    <div class="col-lg-3">
+                                        <div class="col-lg-12 col-12 p-2">
+                                            <div class="elementor-element elementor-element-173d904 elementor-widget elementor-widget-heading" data-id="173d904" data-element_type="widget" data-widget_type="heading.default">
+                                                <div class="elementor-widget-container">
+                                                    <h3 class="elementor-heading-title elementor-size-default">Bion Shareholders</h3>
+                                                </div>
+                                            </div>
+                                        </div>
+                                        <div class="col-lg-12 col-12 p-2">
+                                            <div class="bg-light rounded shadow p-3">
+                                                <div class="d-flex text-dark">
+                                                    <div class="bg-success rounded d-flex justify-content-center align-items-center" style="min-height:5rem;min-width:5rem">
+                                                        <h4 class="m-2 p-0">10.9</h4>
+                                                    </div>
+                                                    <div style="max-height: 5rem;">
+                                                        <ul style="list-style: number;">
+                                                            <li>Innvotec Nominees Ltd</li>
+                                                            <li>Navindran Balakhrishnan</li>
+                                                            <li>Saravnan Rasaratnam</li>
+                                                            <li>Simon Peter</li>
+                                                        </ul>
+                                                    </div>
+                                                </div>
+                                            </div>
+                                        </div>
+                                        <div class="col-lg-12 col-12 p-2">
+                                            <div class="bg-light rounded shadow p-3">
+                                                <div class="d-flex text-dark">
+                                                    <div class="bg-success rounded d-flex justify-content-center align-items-center" style="min-height:5rem;min-width:5rem">
+                                                        <h4 class="m-2 p-0">20</h4>
+                                                    </div>
+                                                    <div style="max-height: 5rem;" class="d-flex justify-content-center align-items-center">
+                                                        <h5 class="p-3">Datuk Syed Nazim</h5>
+                                                    </div>
+                                                </div>
+                                            </div>
+                                        </div>
+                                        <div class="col-lg-12 col-12 p-2">
+                                            <div class="bg-light rounded shadow p-3">
+                                                <div class="d-flex text-dark">
+                                                    <div class="rounded d-flex justify-content-center align-items-center" style="min-height:5rem;min-width:5rem;background:#3880C3">
+                                                        <h4 class="m-2 p-0">4.5</h4>
+                                                    </div>
+                                                    <div style="max-height: 5rem;">
+                                                        <img style="object-fit:contain;" class="p-2 w-100 h-100" class="img-fluid" src="/img/MTDC.png" alt="MTDC">
+                                                    </div>
+                                                </div>
+                                            </div>
+                                        </div>
+                                        <div class="col-lg-12 col-12 p-2">
+                                            <div class="bg-light rounded shadow p-3">
+                                                <div class="d-flex text-dark">
+                                                    <div class="rounded d-flex justify-content-center align-items-center" style="min-height:5rem;min-width:5rem;background:#3880C3">
+                                                        <h4 class="m-2 p-0">20</h4>
+                                                    </div>
+                                                    <div style="max-height: 5rem;">
+                                                        <img style="object-fit: contain;" class="p-2 w-100 h-100" class="img-fluid" src="/img/serba-dinamik.png" alt="MTDC">
+                                                    </div>
+                                                </div>
+                                            </div>
+                                        </div>
+                                        <div class="col-lg-12 col-12 p-2">
+                                            <div class="bg-light rounded shadow p-3">
+                                                <div class="d-flex text-dark">
+                                                    <div class="rounded d-flex justify-content-center align-items-center" style="min-height:5rem;min-width:5rem;background:#3880C3">
+                                                        <h4 class="m-2 p-0">26.5</h4>
+                                                    </div>
+                                                    <div style="max-height: 5rem;" class="d-flex justify-content-center align-items-center">
+                                                        <h5 class="p-3">KM2V</h5>
+                                                    </div>
+                                                </div>
+                                            </div>
+                                        </div>
+                                    </div>
+                                    
                                 </div>
                             </div>
                         </section>
