@@ -367,6 +367,25 @@
                                     </div>
                                     
                                 </div>
+                                <div class="my-4">
+                                    <h3>Technology Partners</h3>
+                                </div>
+                                <div class="row my-4">
+                                    <div class="col-lg-3 col-12">
+                                        <div class="shadow bg-danger rounded p-4 mx-2">
+                                            <div>
+                                                LIPPO
+                                            </div>
+                                        </div>
+                                    </div>
+                                    <div class="col-lg-3 col-12">
+                                        <div class="shadow bg-danger rounded p-4 mx-2">
+                                            <div>
+                                                LIPPO
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
                             </div>
                         </section>
                     </div>
