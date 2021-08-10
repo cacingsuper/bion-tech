@@ -398,9 +398,9 @@
 																					<a href="#elementor-action%3Aaction%3Dpopup%3Aopen%26settings%3DeyJpZCI6IjEyMzgiLCJ0b2dnbGUiOmZhbHNlfQ%3D%3D">
 																						<img width="374" height="502" 
 																						class="attachment-full size-full" alt="" loading="lazy" 
-																						src="<?= base_url("img/board-of-directors") ?>/Habizan-Rahman-Habeeb-Rahman.png" 
-																						srcset="<?= base_url("img/board-of-directors") ?>/Habizan-Rahman-Habeeb-Rahman.png 374w, 
-																						<?= base_url("img/board-of-directors") ?>/Habizan-Rahman-Habeeb-Rahman.png 224w" sizes="(max-width: 374px) 100vw, 374px" /> </a>
+																						src="<?= base_url("img/board-of-directors") ?>/muhammad-oktavianus.png" 
+																						srcset="<?= base_url("img/board-of-directors") ?>/muhammad-oktavianus.png 374w, 
+																						<?= base_url("img/board-of-directors") ?>/muhammad-oktavianus.png 224w" sizes="(max-width: 374px) 100vw, 374px" /> </a>
 																				</div>
 																			</div>
 																		</div>
@@ -421,7 +421,7 @@
 																		</div>
 																		<div class="elementor-element elementor-element-cbfbedf elementor-widget elementor-widget-heading" data-id="cbfbedf" data-element_type="widget" data-widget_type="heading.default">
 																			<div class="elementor-widget-container">
-																				<h1 class="elementor-heading-title elementor-size-default">Habizan Rahman Habeeb Rahman</h1>
+																				<h1 class="elementor-heading-title elementor-size-default">Muhammad Oktavianus H</h1>
 																			</div>
 																		</div>
 																		<div class="elementor-element elementor-element-0447d08 elementor-widget-divider--view-line elementor-widget elementor-widget-divider" data-id="0447d08" data-element_type="widget" data-widget_type="divider.default">
@@ -435,7 +435,7 @@
 																		<div class="elementor-element elementor-element-1c4e234 elementor-widget elementor-widget-text-editor" data-id="1c4e234" data-element_type="widget" data-widget_type="text-editor.default">
 																			<div class="elementor-widget-container">
 																				<div class="elementor-text-editor elementor-clearfix">
-																					<p>Executive Director </p>
+																					<p>President Director </p>
 																				</div>
 																			</div>
 																		</div>
@@ -859,7 +859,10 @@
 															<div class="elementor-element elementor-element-7d26a390 elementor-widget elementor-widget-image" data-id="7d26a390" data-element_type="widget" data-widget_type="image.default">
 																<div class="elementor-widget-container">
 																	<div class="elementor-image">
-																		<img width="374" height="502" src="https://www.bionplc.com/wp-content/uploads/2020/05/bod-habizan-full.jpg" class="attachment-large size-large" alt="" loading="lazy" srcset="https://www.bionplc.com/wp-content/uploads/2020/05/bod-habizan-full.jpg 374w, https://www.bionplc.com/wp-content/uploads/2020/05/bod-habizan-full-224x300.jpg 224w" sizes="(max-width: 374px) 100vw, 374px" />
+																		<img width="374" height="502" 
+																		src="<?= base_url("img/board-of-directors")?>/muhammad-oktavianus.png" 
+																		class="attachment-large size-large" alt="" loading="lazy" 
+																		srcset="<?= base_url("img/board-of-directors")?>/muhammad-oktavianus.png 374w, <?= base_url("img/board-of-directors")?>/muhammad-oktavianus.png 224w" sizes="(max-width: 374px) 100vw, 374px" />
 																	</div>
 																</div>
 															</div>
@@ -879,12 +882,12 @@
 														<div class="elementor-widget-wrap">
 															<div class="elementor-element elementor-element-16ce64c5 elementor-widget elementor-widget-heading" data-id="16ce64c5" data-element_type="widget" data-widget_type="heading.default">
 																<div class="elementor-widget-container">
-																	<h1 class="elementor-heading-title elementor-size-default">Mr. Habizan Rahman Habeeb Rahman</h1>
+																	<h1 class="elementor-heading-title elementor-size-default">Mr. Muhammad Oktavianus H</h1>
 																</div>
 															</div>
 															<div class="elementor-element elementor-element-3a41f3d elementor-widget elementor-widget-text-editor" data-id="3a41f3d" data-element_type="widget" data-widget_type="text-editor.default">
 																<div class="elementor-widget-container">
-																	<div class="elementor-text-editor elementor-clearfix"><strong>Executive Director</strong> </div>
+																	<div class="elementor-text-editor elementor-clearfix"><strong>President Director</strong> </div>
 																</div>
 															</div>
 															<div class="elementor-element elementor-element-1980a62a elementor-widget-divider--view-line elementor-widget elementor-widget-divider" data-id="1980a62a" data-element_type="widget" data-widget_type="divider.default">
@@ -898,8 +901,8 @@
 															<div class="elementor-element elementor-element-593e783d elementor-widget elementor-widget-text-editor" data-id="593e783d" data-element_type="widget" data-widget_type="text-editor.default">
 																<div class="elementor-widget-container">
 																	<div class="elementor-text-editor elementor-clearfix">
-																		<p><span style="font-weight: 400;">Mr. Habizan Rahman Habeeb Rahman was appointed to the Board on 30 April 2020 to serve as Executive Director of the Group. He is also a Managing Partner of Messrs. Rahman Rohaida and Chief Legal &amp; Regulatory at iFIBER Holdings Sdn Bhd. </span></p>
-																		<p><span style="font-weight: 400;">Mr. Habizan Rahman has been practising law since 2005, working at a number of Malaysian law firms, namely Messrs. Kadir Andri &amp; Partners before establishing Messrs. Rahman Rohaida in 2011. His experience includes representing large construction companies and a major international oil &amp; gas business in matters relating to commercial, banking, defamation, tort and corporate dispute resolution.</span></p>
+																		<p><span style="font-weight: 400;">Mr. Muhammad Oktavianus H was appointed to the Board on 30 April 2020 to serve as Executive Director of the Group. He is also a Managing Partner of Messrs. Rahman Rohaida and Chief Legal &amp; Regulatory at iFIBER Holdings Sdn Bhd. </span></p>
+																		<p><span style="font-weight: 400;">Mr. Muhammad Oktavianus H has been practising law since 2005, working at a number of Malaysian law firms, namely Messrs. Kadir Andri &amp; Partners before establishing Messrs. Rahman Rohaida in 2011. His experience includes representing large construction companies and a major international oil &amp; gas business in matters relating to commercial, banking, defamation, tort and corporate dispute resolution.</span></p>
 																	</div>
 																</div>
 															</div>

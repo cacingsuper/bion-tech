@@ -46,9 +46,9 @@
                                                                         <div class="page" title="Page 1">
                                                                             <div class="layoutArea">
                                                                                 <div class="column">
-                                                                                    <p>BiON is one of Malaysia’s most established environmental engineering and renewable energy solution providers. The name “BiON” is inspired by, and derived from, the green ecological world of BIO &#8211; i.e. life – and the progressive energy of ION – i.e. an electrically charged group of atoms.</p>
-                                                                                    <p>Over the span of 40 years, BiON has securely built its foundations and expertise in the successful delivery of wastewater treatment solutions and services for various industries throughout Asia.</p>
-                                                                                    <p>More recently, the business has turned its focus to waste-to-energy through the development of biogas power plants – as an Independent Power Producer and as an Engineering, Procurement, Construction and Commissioning (EPCC) contractor – to generate renewable energy from the treatment of palm oil mill effluent (POME).</p>
+                                                                                    <p>BiON adalah salah satu penyedia solusi teknik lingkungan dan energi terbarukan yang paling mapan di Malaysia. Nama “BiON” terinspirasi oleh, dan berasal dari, dunia ekologi hijau BIO – yaitu kehidupan – dan energi progresif ION – yaitu sekelompok atom bermuatan listrik.</p>
+                                                                                    <p>Sudah 40 tahun, BiON telah membangun fondasi dan keahliannya dengan baik dalam memberikan solusi dan layanan pengolahan air limbah yang sukses untuk berbagai industri di seluruh Asia.</p>                                                                            
+                                                                                    <p>Baru-baru ini, bisnis telah mengalihkan fokusnya ke limbah menjadi energi melalui pengembangan pembangkit listrik tenaga biogas – sebagai Produsen Listrik Independen dan sebagai kontraktor Engineering, Procurement, Construction and Commissioning (EPCC) – untuk menghasilkan energi terbarukan dari pengolahan limbah cair pabrik kelapa sawit (Palm Oil Mill Effluent).</p>
                                                                                 </div>
                                                                             </div>
                                                                         </div>
@@ -121,10 +121,11 @@
                                                             <div class="page" title="Page 2">
                                                                 <div class="layoutArea">
                                                                     <div class="column">
-                                                                        <p>The prosperity of our business is built on serving the environment. Creating positive long-term impact goes hand in hand with commercial success at BiON.</p>
-                                                                        <p>BiON leverages our waste-to-value expertise to reduce bio-waste and harness it as an alternative source of energy through our proprietary technologies.</p>
-                                                                        <p>We are steadfast in our pursuit of battling climate change by providing sustainable solutions across multiple industries to create positive long-term impact to the world.</p>
-                                                                    </div>
+                                                                        <p>Kemakmuran bisnis kami dibangun dengan melayani lingkungan. Menciptakan dampak jangka panjang yang positif sejalan dengan kesuksesan komersial di BiON.</p>
+                                                                        <p>BiON memanfaatkan keahlian waste-to-value kami untuk mengurangi bio-waste dan memanfaatkannya sebagai sumber energi alternatif melalui teknologi eksklusif kami.</p>
+                                                                        <p>Kami teguh dalam upaya kami memerangi perubahan iklim dengan memberikan solusi berkelanjutan di berbagai industri untuk menciptakan dampak jangka panjang yang positif bagi dunia. </p>                                                              
+
+                                                                        </div>
                                                                 </div>
                                                             </div>
                                                         </div>
@@ -265,7 +266,7 @@
                                                                         <div class="elementor-element elementor-element-fb81047 elementor-widget elementor-widget-text-editor" data-id="fb81047" data-element_type="widget" data-widget_type="text-editor.default">
                                                                             <div class="elementor-widget-container">
                                                                                 <div class="elementor-text-editor elementor-clearfix">
-                                                                                    <p>A new methodology and system in mesophilic anaerobic technology to provide higher chemical oxygen demand (COD) reduction efficiency &amp; biogas yield for anaerobic digester tanks.</p>
+                                                                                    <p>Sebuah metodologi dan sistem baru dalam teknologi anaerobik mesofilik untuk memberikan efisiensi pengurangan kebutuhan oksigen kimia (COD) yang lebih tinggi & hasil biogas untuk tangki digester anaerobik.</p>
                                                                                 </div>
                                                                             </div>
                                                                         </div>
@@ -328,7 +329,7 @@
                                                                         <div class="elementor-element elementor-element-8cac6b0 elementor-widget elementor-widget-text-editor" data-id="8cac6b0" data-element_type="widget" data-widget_type="text-editor.default">
                                                                             <div class="elementor-widget-container">
                                                                                 <div class="elementor-text-editor elementor-clearfix">
-                                                                                    <p>An innovative application of the POME-MAS for ponds and lagoons.</p>
+                                                                                    <p>Aplikasi inovatif POME-MAS untuk kolam dan laguna.</p>
                                                                                 </div>
                                                                             </div>
                                                                         </div>
@@ -397,7 +398,7 @@
                                                                         <div class="elementor-element elementor-element-71039bb elementor-widget elementor-widget-text-editor" data-id="71039bb" data-element_type="widget" data-widget_type="text-editor.default">
                                                                             <div class="elementor-widget-container">
                                                                                 <div class="elementor-text-editor elementor-clearfix">
-                                                                                    <p>A patented, in-house developed, novel and innovative gas releasing anaerobic sludge system that provides energy efficient and space saving wastewater treatment.</p>
+                                                                                    <p>Sistem lumpur anaerobik pelepas gas yang dipatenkan, dikembangkan sendiri, dan inovatif yang menyediakan pengolahan air limbah hemat energi dan hemat tempat.</p>
                                                                                 </div>
                                                                             </div>
                                                                         </div>
@@ -423,7 +424,7 @@
                                                                     <div class="elementor-widget-wrap">
                                                                         <div class="elementor-element elementor-element-d7331a9 elementor-widget elementor-widget-heading" data-id="d7331a9" data-element_type="widget" data-widget_type="heading.default">
                                                                             <div class="elementor-widget-container">
-                                                                                <h1 class="elementor-heading-title elementor-size-default">GREENPAK&trade;</h1>
+                                                                                <h1 class="elementor-heading-title elementor-size-default">GREENPARK&trade;</h1>
                                                                             </div>
                                                                         </div>
                                                                     </div>
@@ -442,7 +443,7 @@
                                                                         <div class="elementor-element elementor-element-eeb62e7 elementor-widget elementor-widget-text-editor" data-id="eeb62e7" data-element_type="widget" data-widget_type="text-editor.default">
                                                                             <div class="elementor-widget-container">
                                                                                 <div class="elementor-text-editor elementor-clearfix">
-                                                                                    <p>A patented, in-house developed and innovative wastewater treatment system.</p>
+                                                                                    <p>Sistem pengolahan air limbah yang dipatenkan, dikembangkan sendiri dan inovatif.</p>
                                                                                 </div>
                                                                             </div>
                                                                         </div>
